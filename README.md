@@ -7,7 +7,7 @@ This project is focused on sentiment analysis, which is the task of determining 
 To get started with this project, follow the steps below:
 
 1. Clone the repository to your local machine.
-2. Install the required dependencies by running `pip install -r requirements.txt`.
+2. Install the required dependencies by running `pip install .`.
 3. Run the `main()` function to perform sentiment analysis on test sentences or a book.
 
 ## Code Overview

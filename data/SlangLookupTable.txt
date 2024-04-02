@@ -1,0 +1,105 @@
+academ	academico
+adapt	adaptacao
+add	adicionar
+adm	administracao
+admin	administrador
+agr	agora
+aka	tambem conhecido como
+aki	aqui
+alt	alternativo
+amg	amigo
+ap	apartamento
+apart	apartamento
+apto	apartamento
+arq	arquivo
+ativ	atividade
+auto	automovel
+b4	antes
+bat	bateria
+bbk	babaca
+bbq	babaca
+bbt	biblioteca
+bff	melhores amigos para sempre
+bj	beijo
+bjs	beijos
+blz	beleza
+brb	volto ja
+brinks	brincadeira
+btf	boto fe
+btl	batalhao
+btw	a proposito
+churras	churrasco
+cm	centimetro
+cmg	comigo
+cod	codigo
+ctz	certeza
+cx	caixa
+diy	faca voce mesmo
+dr	doutor
+drs	doutores
+dsclp	desculpa
+ed	edicao
+fds	fim de semana
+fikdik	fica a dica
+flw	falou
+fmz	firmeza
+ftw	para vencer
+gg	bom jogo
+glr	galera
+hj	hoje
+jr	junior
+kd	cade
+kg	quilograma
+kra	cara
+lol	rindo muito alto
+ltda	limitada
+mds	meu deus
+ml	mililitro
+mm	milimetro
+msg	mensagem
+msm	mesmo
+mt	muito
+nmrl	na moral
+obg	obrigado
+off	offline
+omg	oh meu deus
+on	online
+pdc	pode crer
+pff	por favor
+pfv	por favor
+pfvr	por favor
+pg	pago
+pgto	pagamento
+plmdds	pelo amor de deus
+pls	por favor
+pq	porque
+ps	observacao
+pvt	privado
+ql	qual
+qm	quem
+qq	qualquer
+rofl	rolando de rir no chao
+rotfl	rolando de rir no chao
+s2	coracao
+sdd	saudade
+sdds	saudades
+sdv	segue de volta
+slk	voce e louco
+sqn	so que nao
+tb	tambem
+tbh	para ser honesto
+tbm	tambem
+tc	teclar
+td	tudo
+thx	obrigado
+tks	obrigado
+tou	estou
+ty	obrigado
+vc	voce
+vcs	voces
+vdd	verdade
+vlw	valeu
+vsf	vai se foder
+wp	bem jogado
+wtf	que merda e essa
+xoxo	beijos e abracos

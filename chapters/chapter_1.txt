@@ -1,0 +1,3034 @@
+
+Capítulo  II
+
+Frase:   
+Num palavras: 1
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['  ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O vidro desaparecido  
+Num palavras: 4
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['o', 'vidro', 'desaparecir', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Tinham passado quase dez anos desde o dia em que os Dursleys haviam acordado e descoberto o sobrinho no degrau da porta, mas Privet Drive praticamente não mudara.
+Num palavras: 28
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['tinham', 'passar', 'quase', 'dez', 'anos', 'desde', 'o', 'dia', 'em', 'que', 'os', 'dursleys', 'haviam', 'acordar', 'e', 'descobrir', 'o', 'sobrinho', 'no', 'degrau', 'da', 'porta', 'mas', 'privet', 'drive', 'praticamente', 'não', 'mudar']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O sol surgia nos mesmos jardinzinhos bem arranjados em frente das casas e iluminava a placa de latão amarelo que tinha gravado o número quatro na porta principal dos Dursleys, entrava lentamente pela sala de estar que estava quase igual à noite em que o senhor Dursley ouvira na televisão aquelas notícias fatídicas sobre as corujas.
+Num palavras: 56
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('bem', 1), ('iluminar', 1)]
+	negativas: [('amarelo', -1)]
+	neutras: ['o', 'sol', 'surgir', 'nos', 'mesmos', 'jardinzinhos', 'arranjar', 'em', 'frente', 'das', 'casas', 'e', 'a', 'placa', 'de', 'latão', 'que', 'tinha', 'gravar', 'o', 'número', 'quatro', 'na', 'porta', 'principal', 'dos', 'dursleys', 'entrar', 'lentamente', 'pela', 'sala', 'de', 'estar', 'que', 'estava', 'quase', 'igual', 'à', 'noite', 'em', 'que', 'o', 'senhor', 'dursley', 'ouvira', 'na', 'televisão', 'aquelas', 'notícias', 'fatídicas', 'sobre', 'as', 'corujas']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('bem', 1), ('iluminar', 1), ('amarelo', -1), ('igual', 0)]
+
+
+Frase: Apenas as fotografias por cima da lareira deixavam ver como, de facto, o tempo tinha passado.
+Num palavras: 16
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('como', 1)]
+	negativas: [('apenas', -1)]
+	neutras: ['as', 'fotografias', 'por', 'cima', 'da', 'lareira', 'deixar', 'ver', 'de', 'facto', 'o', 'tempo', 'tinha', 'passar']
+	negadores: []
+	boosters: [('apenas', -1)]
+	ironia: []
+	emotions: [('como', 1)]
+
+
+Frase: Dez anos antes havia montes de fotos de uma coisa que parecia uma bola insuflável cor-de-rosa com chapéus com pompons de várias cores.
+Num palavras: 23
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['dez', 'anos', 'antes', 'haver', 'montes', 'de', 'fotos', 'de', 'uma', 'coisa', 'que', 'parecer', 'uma', 'bola', 'insuflável', 'cor-de-roso', 'com', 'chapéus', 'com', 'pompons', 'de', 'várias', 'cores']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Mas Dudley Dursley deixara de ser um bebé e agora as fotografias mostravam um rapaz gordo e loiro na sua primeira bicicleta, num carrocel no parque de diversões, a jogar um jogo de computador com o pai, a ser abraçado e beijado pela mãe.
+Num palavras: 44
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('jogar', 1)]
+	negativas: [('gordo', -1)]
+	neutras: ['mas', 'dudley', 'dursley', 'deixar', 'de', 'ser', 'um', 'bebé', 'e', 'agora', 'as', 'fotografias', 'mostrar', 'um', 'rapaz', 'e', 'loiro', 'na', 'sua', 'primeira', 'bicicleta', 'num', 'carrocel', 'no', 'parque', 'de', 'diversões', 'a', 'um', 'jogo', 'de', 'computador', 'com', 'o', 'pai', 'a', 'ser', 'abraçar', 'e', 'beijar', 'pela', 'mãe']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('gordo', -1), ('jogar', 1)]
+
+
+Frase: A sala não apresentava qualquer vestígio de que naquela casa vivesse outro rapazinho.  
+Num palavras: 14
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['a', 'sala', 'não', 'apresentar', 'qualquer', 'vestígio', 'de', 'que', 'naquela', 'casa', 'viver', 'outro', 'rapazinho', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Contudo Harry Potter ainda lá estava, a dormir naquele momento, mas não por muito mais tempo.
+Num palavras: 16
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: [('muito', 1)]
+	negativas: []
+	neutras: ['contudo', 'harry', 'potter', 'ainda', 'lá', 'estava', 'a', 'dormir', 'naquele', 'momento', 'mas', 'não', 'por', 'mais', 'tempo']
+	negadores: ['não']
+	boosters: [('muito', 1)]
+	ironia: []
+	emotions: []
+
+
+Frase: A tia Petúnia tinha acordado e a sua voz estridente foi o primeiro ruído do dia.  
+Num palavras: 17
+Pontuação de sentimento: -2
+Evidências:
+	positivas: []
+	negativas: [('estridente', -1), ('ruído', -1)]
+	neutras: ['a', 'tia', 'petúnia', 'tinha', 'acordar', 'e', 'a', 'sua', 'voz', 'foi', 'o', 'primeiro', 'do', 'dia', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('estridente', -1), ('ruído', -1)]
+
+
+Frase: - Toca a levantar, já!  
+Num palavras: 5
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['tocar', 'a', 'levantar', 'já', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Harry acordou sobressaltado.
+Num palavras: 3
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['harry', 'acordar', 'sobressaltar']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: A tia bateu de novo na porta. «Levantar«, guinchou.
+Num palavras: 9
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('bater', -1)]
+	neutras: ['a', 'tia', 'de', 'novo', 'na', 'porta', 'levantar', 'guinchou']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('bater', -1)]
+
+
+Frase: Harry ouviu-lhe os passos a dirigirem-se à cozinha e em seguida o som da fritadeira a ser posta ao lume.
+Num palavras: 21
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['harry', 'ouviu-lhe', 'os', 'passos', 'a', 'dirigirem', 'se', 'à', 'cozinha', 'e', 'em', 'seguida', 'o', 'som', 'da', 'fritadeira', 'a', 'ser', 'pôr', 'ao', 'lume']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Enroscou-se na roupa e tentou recordar-se do sonho que tinha tido.
+Num palavras: 13
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['enroscar', 'se', 'na', 'roupa', 'e', 'tentar', 'recordar', 'se', 'do', 'sonho', 'que', 'tinha', 'ter']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Era um sonho agradável onde entrava uma moto aérea.
+Num palavras: 9
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('agradável', 1)]
+	negativas: [('entravar', -1)]
+	neutras: ['era', 'um', 'sonho', 'onde', 'uma', 'moto', 'aérea']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('agradável', 1), ('entravar', -1)]
+
+
+Frase: Não conseguia evitar a estranha sensação de que não era a primeira vez que tinha aquele sonho.  
+Num palavras: 18
+Pontuação de sentimento: 1.0
+Evidências:
+	positivas: []
+	negativas: [('evitar', -1), ('estranha', -1)]
+	neutras: ['não', 'conseguir', 'a', 'sensação', 'de', 'que', 'não', 'era', 'a', 'primeira', 'vez', 'que', 'ter', 'aquele', 'sonho', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('evitar', -1), ('estranha', -1)]
+
+
+Frase: A tia estava de novo junto da porta.  
+Num palavras: 9
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['a', 'tia', 'estava', 'de', 'novo', 'junto', 'da', 'porta', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Já te levantaste?
+Num palavras: 3
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['já', 'te', 'levantaste']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - perguntou.  
+Num palavras: 2
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['perguntar', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: -- Quase - disse Harry.  
+Num palavras: 4
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['quase', 'dizer', 'harry', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: -- Bem, vamos a despachar, quero que acabes o pequeno-almoço e não deixes queimar o bacon.
+Num palavras: 15
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('bem', 1)]
+	negativas: [('queimar', -1)]
+	neutras: ['ir', 'a', 'despachar', 'querar', 'que', 'acabes', 'o', 'pequeno-almoço', 'e', 'não', 'deixeser', 'o', 'bacon']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('bem', 1), ('queimar', -1)]
+
+
+Frase: Tudo tem de estar perfeito no aniversário do Duddy.  
+Num palavras: 10
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('perfeito', 1)]
+	negativas: []
+	neutras: ['tudo', 'ter', 'de', 'estar', 'no', 'aniversário', 'do', 'duddy', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('perfeito', 1)]
+
+
+Frase: Harry resmungou.  
+Num palavras: 3
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('resmungar', -1)]
+	neutras: ['harry', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('resmungar', -1)]
+
+
+Frase: - O que é que disseste?
+Num palavras: 5
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['o', 'que', 'é', 'que', 'disseste']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - perguntou a tia, do lado de fora, da porta.  
+Num palavras: 10
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['perguntar', 'a', 'tia', 'do', 'lado', 'de', 'fora', 'da', 'porta', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Nada, nada...  
+Num palavras: 3
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['nada', 'nada', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O aniversário do Dudley - como poderia ele esquecer-se?
+Num palavras: 9
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('como', 1)]
+	negativas: []
+	neutras: ['o', 'aniversário', 'do', 'dudley', 'poder', 'ele', 'esquecer', 'se']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('como', 1)]
+
+
+Frase: Harry saltou da cama e começou a procurar as peúgas.
+Num palavras: 10
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['harry', 'saltar', 'da', 'cama', 'e', 'começar', 'a', 'procurar', 'as', 'peúgas']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Encontrou um par debaixo da cama e, depois de sacudir uma aranha de cima de uma delas, calçou-se.
+Num palavras: 18
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('sacudir', 1)]
+	negativas: []
+	neutras: ['encontrar', 'um', 'par', 'debaixo', 'da', 'cama', 'e', 'depois', 'de', 'uma', 'aranha', 'de', 'cima', 'de', 'uma', 'delas', 'calçou-se']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('sacudir', 1)]
+
+
+Frase: Já estava habituado às aranhas porque a despensa debaixo das escadas, onde dormia, estava cheia delas.  
+Num palavras: 17
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('cheia', -1)]
+	neutras: ['já', 'estava', 'habituado', 'às', 'aranhas', 'porque', 'a', 'despensa', 'debaixo', 'das', 'escadas', 'onde', 'dormer', 'estava', 'delas', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('cheia', -1)]
+
+
+Frase: Quando acabou de se vestir, atravessou o vestíbulo e entrou na cozinha.
+Num palavras: 12
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['quando', 'acabar', 'de', 'se', 'vestir', 'atravessar', 'o', 'vestíbulo', 'e', 'entrar', 'na', 'cozinha']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: A mesa quase não se via debaixo dos presentes de aniversário do Dudley.
+Num palavras: 13
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['a', 'mesa', 'quase', 'não', 'se', 'ver', 'debaixo', 'dos', 'presentes', 'de', 'aniversário', 'do', 'dudley']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Parecia que ele tinha conseguido que lhe dessem o novo computador que tanto queria, para não falar da segunda televisão e da bicicleta de corrida.
+Num palavras: 25
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['parecer', 'que', 'ele', 'tinha', 'conseguir', 'que', 'lhe', 'der', 'o', 'novo', 'computador', 'que', 'tanto', 'querer', 'para', 'não', 'falar', 'da', 'segunda', 'televisão', 'e', 'da', 'bicicleta', 'de', 'corrida']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O motivo pelo qual Dudley queria uma bicicleta de corrida era um mistério absoluto para Harry, uma vez que ele era gordíssimo e detestava fazer exercício - a não ser, claro, que se tratasse de bater em alguém.
+Num palavras: 37
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('claro', 1), ('tratar', 1)]
+	negativas: [('detestar', -1), ('bater', -1)]
+	neutras: ['o', 'motivo', 'pelo', 'qual', 'dudley', 'querer', 'uma', 'bicicleta', 'de', 'corrida', 'era', 'um', 'mistério', 'absoluto', 'para', 'harry', 'uma', 'vez', 'que', 'ele', 'era', 'gordíssimo', 'e', 'fazer', 'exercício', 'a', 'não', 'ser', 'que', 'se', 'de', 'em', 'alguém']
+	negadores: ['pelo', 'não']
+	boosters: []
+	ironia: []
+	emotions: [('absoluto', 0), ('detestar', -1), ('claro', 1), ('tratar', 1), ('bater', -1)]
+
+
+Frase: O saco de pancada preferido do Dudley era Harry, mas geralmente não conseguia apanhá-lo porque, apesar de não parecer, Harry era extremamente rápido.  
+Num palavras: 25
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: [('extremamente', 1), ('rápido', 1)]
+	negativas: [('apesar', -1)]
+	neutras: ['o', 'saco', 'de', 'pancada', 'preferer', 'do', 'dudley', 'era', 'harry', 'mas', 'geralmente', 'não', 'conseguir', 'apanhar', 'ele', 'porque', 'de', 'não', 'parecer', 'harry', 'era', ' ']
+	negadores: ['não']
+	boosters: [('extremamente', 1)]
+	ironia: []
+	emotions: [('apesar', -1), ('rápido', 1)]
+
+
+Frase: Talvez isso se devesse ao facto de viver numa despensa sem luz, mas Harry fora sempre pequeno e franzino para a idade.
+Num palavras: 22
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('pequeno', 1)]
+	negativas: [('franzino', -1)]
+	neutras: ['talvez', 'isso', 'se', 'dever', 'ao', 'facto', 'de', 'viver', 'numa', 'despensa', 'sem', 'luz', 'mas', 'harry', 'fora', 'sempre', 'e', 'para', 'a', 'idade']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('pequeno', 1), ('franzino', -1)]
+
+
+Frase: Parecia ainda mais pequeno e mais franzino por ter de usar as roupas que deixavam de servir ao Dudley que tinha quatro vezes o seu tamanho.
+Num palavras: 26
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: [('pequeno', 1)]
+	negativas: [('franzino', -1), ('usar', -1)]
+	neutras: ['parecer', 'ainda', 'mais', 'e', 'mais', 'por', 'ter', 'de', 'as', 'roupas', 'que', 'deixar', 'de', 'servir', 'ao', 'dudley', 'que', 'ter', 'quatro', 'vezes', 'o', 'seu', 'tamanho']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('pequeno', 1), ('franzino', -1), ('usar', -1)]
+
+
+Frase: O rosto de Harry era magro e pálido, os joelhos ossudos, o cabelo preto e os olhos verdes brilhantes.
+Num palavras: 19
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('pálido', -1)]
+	neutras: ['o', 'rosto', 'de', 'harry', 'era', 'magro', 'e', 'os', 'joelhos', 'ossudos', 'o', 'cabelo', 'preto', 'e', 'os', 'olhos', 'verdes', 'brilhantes']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('pálido', -1)]
+
+
+Frase: Usava uns óculos redondos, ligados ao meio com fita-cola devido a todos os morros que Dudley lhe tinha dado no nariz.
+Num palavras: 21
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('usar', -1)]
+	neutras: ['uns', 'óculos', 'redondos', 'ligar', 'ao', 'meio', 'com', 'fita-cola', 'devido', 'a', 'todos', 'os', 'morros', 'que', 'dudleyr', 'lhe', 'tinha', 'dar', 'no', 'nariz']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('usar', -1)]
+
+
+Frase: A única coisa de que Harry gostava, no seu aspecto físico, era daquela pequena cicatriz na testa que mais parecia um feixe de luz.
+Num palavras: 24
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('pequena', 1)]
+	negativas: [('cicatriz', -1)]
+	neutras: ['a', 'única', 'coisa', 'de', 'que', 'harry', 'gostar', 'no', 'seu', 'aspecto', 'físico', 'era', 'daquela', 'na', 'testa', 'que', 'mais', 'parecer', 'um', 'feixe', 'de', 'luz']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('gostar', 0), ('pequena', 1), ('cicatriz', -1)]
+
+
+Frase: Lembrava-se dela desde sempre e a primeira pergunta que se recordava de ter feito à tia Petúnia era qual a origem daquela cicatriz.  
+Num palavras: 25
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('cicatriz', -1)]
+	neutras: ['lembrava', 'se', 'dela', 'desde', 'sempre', 'e', 'a', 'primeira', 'pergunta', 'que', 'se', 'recordar', 'de', 'ter', 'fazer', 'à', 'tia', 'petúnia', 'era', 'qual', 'a', 'origem', 'daquela', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('cicatriz', -1)]
+
+
+Frase: - Ficou-te do acidente de automóvel em que os teus pais morreram - respondeu ela - e não faças perguntas.  
+Num palavras: 18
+Pontuação de sentimento: 1.0
+Evidências:
+	positivas: []
+	negativas: [('acidente', -1), ('morrer', -1)]
+	neutras: ['ficou-te', 'do', 'de', 'automóvel', 'em', 'que', 'os', 'teus', 'pais', 'responder', 'ela', 'e', 'não', 'faças', 'perguntas', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('acidente', -1), ('morrer', -1)]
+
+
+Frase: Não fazer perguntas - aquela era a primeira regra para uma vida tranquila com os Dursleys.  
+Num palavras: 16
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: [('tranquila', 1)]
+	negativas: []
+	neutras: ['não', 'fazer', 'perguntas', 'aquela', 'era', 'a', 'primeira', 'regra', 'para', 'uma', 'vida', 'com', 'os', 'dursleys', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('tranquila', 1)]
+
+
+Frase: O tio Vernon entrou na cozinha no momento em que Harry estava a virar o bacon.  
+Num palavras: 17
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['o', 'tio', 'vernon', 'entrar', 'na', 'cozinha', 'no', 'momento', 'em', 'que', 'harry', 'estar', 'a', 'virar', 'o', 'bacon', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Penteia-te --, rosnou como forma de dar os bons-dias.
+Num palavras: 8
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('como', 1)]
+	negativas: [('rosnar', -1)]
+	neutras: ['penteia-te', 'forma', 'de', 'dar', 'os', 'bons-dias']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('rosnar', -1), ('como', 1)]
+
+
+Frase: Cerca de uma vez por semana, o tio Vernon olhava por cima do jornal da manhã e gritava que Harry precisava de cortar o cabelo.
+Num palavras: 25
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: []
+	negativas: [('gritar', -1), ('cortar', -1)]
+	neutras: ['cerca', 'de', 'uma', 'vez', 'por', 'semana', 'o', 'tio', 'vernon', 'olhar', 'por', 'cima', 'do', 'jornal', 'da', 'manhã', 'e', 'que', 'harry', 'precisar', 'de', 'o', 'cabelo']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('gritar', -1), ('cortar', -1)]
+
+
+Frase: Harry tinha de cortar mais vezes o cabelo do que todos os rapazes da sua turma juntos, mas mesmo assim ele continuava a crescer por todos os lados.  
+Num palavras: 29
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('cortar', -1)]
+	neutras: ['harry', 'ter', 'de', 'mais', 'vezes', 'o', 'cabelo', 'do', 'que', 'todos', 'os', 'rapazes', 'da', 'sua', 'turma', 'juntos', 'mas', 'mesmo', 'assim', 'ele', 'continuar', 'a', 'crescer', 'por', 'todos', 'os', 'lados', ' ']
+	negadores: []
+	boosters: [('assim', 0)]
+	ironia: []
+	emotions: [('cortar', -1)]
+
+
+Frase: Estava a fritar os ovos quando Dudley chegou à cozinha com a mãe.
+Num palavras: 13
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['estar', 'a', 'fritar', 'os', 'ovos', 'quando', 'dudley', 'chegar', 'à', 'cozinha', 'com', 'a', 'mãe']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Dudley era fisicamente muito parecido com o tio Vernon.
+Num palavras: 9
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('muito', 1)]
+	negativas: []
+	neutras: ['dudley', 'era', 'fisicamente', 'parecido', 'com', 'o', 'tio', 'vernon']
+	negadores: []
+	boosters: [('muito', 1)]
+	ironia: []
+	emotions: []
+
+
+Frase: Tinha uma cara grande e rosada, um pescoço baixo, olhos azuis pequeninos e um cabelo loiro e uniformemente penteado na sua cabecinha gorda.
+Num palavras: 23
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('grande', 1), ('pequeninos', 1)]
+	negativas: [('cara', -1), ('baixo', -1)]
+	neutras: ['ter', 'uma', 'e', 'rosar', 'um', 'pescoço', 'olhos', 'azuis', 'e', 'um', 'cabelo', 'loiro', 'e', 'uniformemente', 'pentear', 'na', 'sua', 'cabecinha', 'gorda']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('cara', -1), ('grande', 1), ('baixo', -1), ('pequeninos', 1)]
+
+
+Frase: A tia Petúnia dizia muitas vezes que ele parecia um anjinho - Harry costumava dizer que ele parecia um porco de chinó.  
+Num palavras: 22
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: [('muitas', 1)]
+	negativas: [('anjinho', -1), ('porco', -1)]
+	neutras: ['a', 'tia', 'petúnia', 'dizer', 'vezes', 'que', 'ele', 'parecer', 'um', 'harry', 'costumar', 'dizer', 'que', 'ele', 'parecer', 'um', 'de', 'chinó', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('muitas', 1), ('anjinho', -1), ('porco', -1)]
+
+
+Frase: Harry pousou os pratos de ovos com bacon sobre a mesa, o que não foi fácil uma vez que esta estava cheia e não restava muito espaço.
+Num palavras: 27
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('muito', 1)]
+	negativas: [('cheia', -1)]
+	neutras: ['harry', 'pousar', 'os', 'pratos', 'de', 'ovos', 'com', 'bacon', 'sobre', 'a', 'mesa', 'o', 'que', 'não', 'foi', 'fácil', 'uma', 'vez', 'que', 'esta', 'estava', 'e', 'não', 'restar', 'espaço']
+	negadores: ['não']
+	boosters: [('muito', 1)]
+	ironia: []
+	emotions: [('fácil', 0), ('cheia', -1)]
+
+
+Frase: Dudley entretanto contava os presentes.
+Num palavras: 5
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['dudley', 'entretanto', 'contar', 'os', 'presentes']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: De repente, a sua expressão tornou-se carrancuda.  
+Num palavras: 9
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('carrancuda', -1)]
+	neutras: ['de', 'repente', 'a', 'sua', 'expressão', 'tornar', 'se', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('carrancuda', -1)]
+
+
+Frase: - Trinta e seis - disse, olhando para o pai e para a mãe.
+Num palavras: 12
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['trinta', 'e', 'seis', 'dizer', 'olhar', 'para', 'o', 'pai', 'e', 'para', 'a', 'mãe']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - São menos dois do que no ano passado.  
+Num palavras: 9
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('são', 1)]
+	negativas: [('passado', -1)]
+	neutras: ['menos', 'dois', 'do', 'que', 'no', 'ano', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('são', 1), ('passado', -1)]
+
+
+Frase: - Querido, não contaste com o da tia Marge, vês?
+Num palavras: 9
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: [('querido', 1)]
+	negativas: []
+	neutras: ['não', 'contastir', 'com', 'o', 'da', 'tia', 'marge', 'vês']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('querido', 1)]
+
+
+Frase: Está aqui, debaixo deste grande do papa e da mamã.  
+Num palavras: 11
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('grande', 1)]
+	negativas: []
+	neutras: ['está', 'aqui', 'debaixo', 'deste', 'do', 'papa', 'e', 'da', 'mamã', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('grande', 1)]
+
+
+Frase: - Está bem, trinta e sete --, disse Dudley corando um pouco.
+Num palavras: 10
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('bem', 1)]
+	negativas: []
+	neutras: ['está', 'trinta', 'e', 'sete', 'dizer', 'dudley', 'corar', 'um', 'pouco']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('bem', 1)]
+
+
+Frase: Harry, que podia ver uma enorme birra a aproximar-se, começou a devorar o seu pequeno-almoço antes que Dudley virasse a mesa.  
+Num palavras: 23
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('birra', -1)]
+	neutras: ['harry', 'que', 'poder', 'ver', 'uma', 'enorme', 'a', 'aproximar', 'se', 'começar', 'a', 'devorar', 'o', 'seu', 'pequeno-almoço', 'antes', 'que', 'dudley', 'virar', 'a', 'mesa', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('birra', -1)]
+
+
+Frase: A tia Petúnia, naturalmente, sentiu o mesmo perigo porque disse rapidamente: - Então vamos comprar-te mais dois presentes hoje à tarde, quando sairmos para o nosso passeio habitual.
+Num palavras: 27
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: []
+	negativas: [('perigo', -1), ('tarde', -1)]
+	neutras: ['a', 'tia', 'petúnia', 'naturalmente', 'sentir', 'o', 'mesmo', 'porque', 'dizer', 'rapidamente', 'então', 'vamos', 'comprar-te', 'mais', 'dois', 'presentes', 'hoje', 'à', 'quando', 'sairmos', 'para', 'o', 'nosso', 'passeio', 'habitual']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('perigo', -1), ('tarde', -1)]
+
+
+Frase: O que dizes, queridinho, mais dois presentes, achas bem?  
+Num palavras: 10
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('bem', 1)]
+	negativas: []
+	neutras: ['o', 'que', 'diz', 'queridinho', 'mais', 'dois', 'presentes', 'achas', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('bem', 1)]
+
+
+Frase: Dudley pensou durante alguns segundos.
+Num palavras: 5
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('alguns', -1)]
+	neutras: ['dudley', 'pensar', 'durante', 'segundos']
+	negadores: []
+	boosters: [('alguns', -1)]
+	ironia: []
+	emotions: []
+
+
+Frase: Parecia complicado.
+Num palavras: 2
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('complicado', -1)]
+	neutras: ['parecer']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('complicado', -1)]
+
+
+Frase: Por fim, repetiu lentamente - Então fico com trinta e... trinta e...  
+Num palavras: 12
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['por', 'fim', 'repetir', 'lentamente', 'então', 'ficar', 'com', 'trinta', 'e', 'trinta', 'e', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Trinta e nove coisas boas - disse a tia Petúnia.  
+Num palavras: 10
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('boas', 1)]
+	negativas: []
+	neutras: ['trinta', 'e', 'nove', 'coisas', 'dizer', 'a', 'tia', 'petúnia', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('boas', 1)]
+
+
+Frase: - Ah!
+Num palavras: 1
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['ah']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Dudley sentou-se e agarrou o embrulho que estava mais à mão.
+Num palavras: 12
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('agarrar', -1)]
+	neutras: ['dudley', 'sentar', 'se', 'e', 'o', 'embrulho', 'que', 'estava', 'mais', 'à', 'mão']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('agarrar', -1)]
+
+
+Frase: - Está bem, então.  
+Num palavras: 4
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('bem', 1)]
+	negativas: []
+	neutras: ['está', 'então', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('bem', 1)]
+
+
+Frase: - Safadinho, quer tudo aquilo a que tem direito.
+Num palavras: 8
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('direito', 1)]
+	negativas: []
+	neutras: ['safadinho', 'querer', 'tudo', 'aquilo', 'a', 'que', 'ter']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('direito', 1)]
+
+
+Frase: Tal como o pai.
+Num palavras: 4
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('como', 1)]
+	negativas: []
+	neutras: ['tal', 'o', 'pai']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('como', 1)]
+
+
+Frase: E assim mesmo, pequeno Dudley!
+Num palavras: 5
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('pequeno', 1)]
+	negativas: []
+	neutras: ['e', 'assim', 'mesmo', 'dudley']
+	negadores: []
+	boosters: [('assim', 0)]
+	ironia: []
+	emotions: [('pequeno', 1)]
+
+
+Frase: - disse o senhor Dursley, fazendo-lhe uma festa e desalinhando-lhe os cabelos.  
+Num palavras: 14
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('festa', 1)]
+	negativas: []
+	neutras: ['dizer', 'o', 'senhor', 'dursley', 'fazer', 'ele', 'uma', 'e', 'desalinhar', 'ele', 'os', 'cabelos', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('festa', 1)]
+
+
+Frase: Nesse momento tocou o telefone e a tia Petúnia foi atender, enquanto Harry e o tio Vernon observavam Dudley desembrolhando a bicicleta de corrida, uma câmara de filmar, um avião de controlo remoto, dezasseis novos jogos de computador e um video gravador.
+Num palavras: 42
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['nesse', 'momento', 'tocar', 'o', 'telefone', 'e', 'a', 'tia', 'petúnia', 'foi', 'atender', 'enquanto', 'harry', 'e', 'o', 'tio', 'vernon', 'observar', 'dudley', 'desembrolhar', 'a', 'bicicleta', 'de', 'corrida', 'uma', 'câmara', 'de', 'filmar', 'um', 'avião', 'de', 'controlo', 'remoto', 'dezassel', 'novos', 'jogos', 'de', 'computador', 'e', 'um', 'video', 'gravador']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Estava a rasgar o papel de um relógio de pulso de ouro quando a tia Petúnia regressou do telefone com um ar aborrecido e preocupado.  
+Num palavras: 26
+Pontuação de sentimento: -1.5
+Evidências:
+	positivas: []
+	negativas: [('rasgar', -1), ('aborrecido', -1), ('preocupado', -1)]
+	neutras: ['estar', 'a', 'o', 'papel', 'de', 'um', 'relógio', 'de', 'pulso', 'de', 'ouro', 'quando', 'a', 'tia', 'petúnia', 'regressar', 'do', 'telefone', 'com', 'um', 'ar', 'e', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('rasgar', -1), ('aborrecido', -1), ('preocupado', -1)]
+
+
+Frase: - Más notícias, Vernon --, disse.
+Num palavras: 4
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['más', 'notícias', 'vernon', 'dizer']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - A senhora Figg partiu uma perna e não pode ficar com ele - e acenou com a cabeça na direcção de Harry.  
+Num palavras: 22
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['a', 'senhora', 'figg', 'partir', 'uma', 'perna', 'e', 'não', 'poder', 'ficar', 'com', 'ele', 'e', 'acenar', 'com', 'a', 'cabeça', 'na', 'direcção', 'de', 'harry', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: A boca de Dudley ficou aberta, expressando verdadeiro horror, mas o coração de Harry deu um salto.
+Num palavras: 17
+Pontuação de sentimento: 0
+Evidências:
+	positivas: [('verdadeiro', 1)]
+	negativas: [('horror', -1)]
+	neutras: ['a', 'boca', 'de', 'dudley', 'ficar', 'aberta', 'expressar', 'mas', 'o', 'coração', 'de', 'harry', 'dar', 'um', 'salto']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('verdadeiro', 1), ('horror', -1)]
+
+
+Frase: Todos os anos, no aniversário do Dudley, os pais levavam-no a passear, a ele e a um amigo, e iam a parques de diversões, hamburguerias ou ao cinema.
+Num palavras: 28
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('amigo', 1)]
+	negativas: []
+	neutras: ['todos', 'os', 'anos', 'no', 'aniversário', 'do', 'dudley', 'os', 'pais', 'levavam-no', 'a', 'passear', 'a', 'ele', 'e', 'a', 'um', 'e', 'ir', 'a', 'parques', 'de', 'diversões', 'hamburguerias', 'ou', 'ao', 'cinema']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('amigo', 1)]
+
+
+Frase: E todos os anos Harry era deixado com a senhora Figg, uma velhota meio tonta que vivia ali perto.
+Num palavras: 19
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('tonta', -1)]
+	neutras: ['e', 'todos', 'os', 'anos', 'harry', 'era', 'deixar', 'com', 'a', 'senhora', 'figg', 'uma', 'velhota', 'meio', 'que', 'viver', 'ali', 'perto']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('tonta', -1)]
+
+
+Frase: Harry detestava ficar lá.
+Num palavras: 4
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('detestar', -1)]
+	neutras: ['harry', 'ficar', 'lá']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('detestar', -1)]
+
+
+Frase: A casa cheirava a couve e a senhora Figg obrigava-o a ver as fotografias de todos os gatos que tinha tido ao longo da vida.  
+Num palavras: 26
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['a', 'casa', 'cheirar', 'a', 'couve', 'e', 'a', 'senhora', 'figg', 'obrigava-o', 'a', 'ver', 'as', 'fotografias', 'de', 'todos', 'os', 'gatos', 'que', 'tinha', 'ter', 'ao', 'longo', 'da', 'vida', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - O que é que podemos fazer agora?
+Num palavras: 7
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['o', 'que', 'é', 'que', 'poder', 'fazer', 'agora']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - perguntou a tia Petúnia, olhando com um ar furioso para Harry como se ele tivesse tido alguma culpa.
+Num palavras: 18
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: [('como', 1)]
+	negativas: [('furioso', -1), ('culpa', -1)]
+	neutras: ['perguntar', 'a', 'tia', 'petúnia', 'olhar', 'com', 'um', 'ar', 'para', 'harry', 'se', 'ele', 'tivesse', 'ter', 'alguma']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('furioso', -1), ('como', 1), ('culpa', -1)]
+
+
+Frase: Harry sabia que devia sentir pena da senhora Figg por ela ter partido uma perna, coitada, mas não era fácil pois agradava-lhe bastante a ideia de passar mais um ano sem ter de ver as fotografias do Tibbles, do Snowy, do Mr.
+Num palavras: 42
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: []
+	negativas: [('pena', -1)]
+	neutras: ['harry', 'saber', 'que', 'dever', 'sentir', 'da', 'senhora', 'figg', 'por', 'ela', 'ter', 'partir', 'uma', 'perna', 'coitar', 'mas', 'não', 'era', 'fácil', 'pois', 'agradava-lhe', 'bastante', 'a', 'ideia', 'de', 'passar', 'mais', 'um', 'ano', 'sem', 'ter', 'de', 'ver', 'as', 'fotografias', 'do', 'tibbles', 'do', 'snowy', 'do', 'mr']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('pena', -1), ('fácil', 0)]
+
+
+Frase: Paws e do Tufty.  
+Num palavras: 5
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['paws', 'e', 'do', 'tufty', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Podíamos telefonar à Marge --, sugeriu o tio Vernon  
+Num palavras: 9
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['poder', 'telefonar', 'à', 'marge', 'sugerir', 'o', 'tio', 'vernon', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Que disparate, Vernon, ela detesta o miúdo.
+Num palavras: 7
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: []
+	negativas: [('disparate', -1), ('detestar', -1)]
+	neutras: ['que', 'vernon', 'ela', 'o', 'miúdo']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('disparate', -1), ('detestar', -1)]
+
+
+Frase: Os Dursleys falavam muitas vezes assim, como se ele não estivesse presente ou melhor, como se ele fosse uma coisa muito desagradável, incapaz de os entender, uma espécie de lesma.  
+Num palavras: 31
+Pontuação de sentimento: -1.5
+Evidências:
+	positivas: [('muitas', 1), ('como', 1), ('presente', 1), ('melhor', 1), ('como', 1), ('muito', 1)]
+	negativas: [('desagradável', -1), ('incapaz', -1), ('lesma', -1)]
+	neutras: ['os', 'dursleys', 'falar', 'vezes', 'assim', 'se', 'ele', 'não', 'estivesse', 'ou', 'se', 'ele', 'fosse', 'uma', 'coisa', 'de', 'os', 'entender', 'uma', 'espécie', 'de', ' ']
+	negadores: ['não']
+	boosters: [('assim', 0), ('muito', 1)]
+	ironia: []
+	emotions: [('muitas', 1), ('como', 1), ('presente', 1), ('melhor', 1), ('como', 1), ('desagradável', -1), ('incapaz', -1), ('lesma', -1)]
+
+
+Frase: - E aquela tua amiga, como é o nome dela, Ivonne?  
+Num palavras: 11
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('como', 1)]
+	negativas: []
+	neutras: ['e', 'aquela', 'tua', 'amiga', 'é', 'o', 'nome', 'dela', 'ivonne', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('como', 1)]
+
+
+Frase: - Está a passar férias em Maiorca - disse bruscamente a tia Petúnia.  
+Num palavras: 12
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['estar', 'a', 'passar', 'férias', 'em', 'maiorca', 'dizer', 'bruscamente', 'a', 'tia', 'petúnia', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Podiam deixar-me ficar aqui - arriscou o Harry, cheio de esperança (sempre podia ver o que lhe apetecesse na televisão, para variar e talvez até jogar um pouco no computador do Dudley).  
+Num palavras: 32
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('jogar', 1)]
+	negativas: [('cheio', -1)]
+	neutras: ['poder', 'deixar-me', 'ficar', 'aqui', 'arriscar', 'o', 'harry', 'de', 'esperança', 'sempre', 'poder', 'ver', 'o', 'que', 'lhe', 'apetecer', 'na', 'televisão', 'para', 'variar', 'e', 'talvez', 'até', 'um', 'pouco', 'no', 'computador', 'do', 'dudley', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('cheio', -1), ('jogar', 1)]
+
+
+Frase: A tia Petúnia olhou para ele como se tivesse engolido um limão.
+Num palavras: 12
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('como', 1)]
+	negativas: []
+	neutras: ['a', 'tia', 'petúnia', 'olhar', 'para', 'ele', 'se', 'tivesse', 'engolir', 'um', 'limão']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('como', 1)]
+
+
+Frase: - E quando voltasse encontrava a casa em ruínas?
+Num palavras: 8
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['e', 'quando', 'voltar', 'encontrar', 'a', 'casa', 'em', 'ruínas']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - perguntou cinicamente.  
+Num palavras: 3
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['perguntar', 'cinicamente', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Eu não destruo a casa - disse Harry, mas ninguém o ouvia.  
+Num palavras: 12
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['eu', 'não', 'destruo', 'a', 'casa', 'dizer', 'harry', 'mas', 'ninguém', 'o', 'ouver', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - O melhor será ele vir connosco até ao jardim zoológico - disse numa voz arrastada a tia Petúnia --... e depois ficar no carro à nossa espera...  
+Num palavras: 26
+Pontuação de sentimento: 2
+Evidências:
+	positivas: [('melhor', 1), ('espera', 1)]
+	negativas: []
+	neutras: ['o', 'será', 'ele', 'vir', 'connosco', 'até', 'ao', 'jardim', 'zoológico', 'dizer', 'numa', 'voz', 'arrastar', 'a', 'tia', 'petúnia', 'e', 'depois', 'ficar', 'no', 'carro', 'à', 'nossa', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('melhor', 1), ('espera', 1)]
+
+
+Frase: - No meu carro novo, nem pensar em deixá-lo lá sozinho...  
+Num palavras: 12
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('sozinho', -1)]
+	neutras: ['no', 'meu', 'carro', 'novo', 'nem', 'pensar', 'em', 'deixar', 'ele', 'lá', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('sozinho', -1)]
+
+
+Frase: Dudley começou a chorar em altos berros.
+Num palavras: 7
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('chorar', -1)]
+	neutras: ['dudley', 'começar', 'a', 'em', 'altos', 'berros']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('chorar', -1)]
+
+
+Frase: Não a chorar, chorar.
+Num palavras: 4
+Pontuação de sentimento: 2
+Evidências:
+	positivas: []
+	negativas: [('chorar', -1), ('chorar', -1)]
+	neutras: ['não', 'a']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('chorar', -1), ('chorar', -1)]
+
+
+Frase: Havia anos que ele não chorava, mas sabia perfeitamente que se contraísse os músculos do rosto e gritasse bem alto, a mãe dar-lhe-ia tudo e mais alguma coisa.  
+Num palavras: 29
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('bem', 1)]
+	negativas: [('chorar', -1), ('gritar', -1)]
+	neutras: ['haver', 'anos', 'que', 'ele', 'não', 'mas', 'saber', 'perfeitamente', 'que', 'se', 'contraír', 'os', 'músculos', 'do', 'rosto', 'e', 'alto', 'a', 'mãe', 'dar-lhe-ia', 'tudo', 'e', 'mais', 'alguma', 'coisa', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('chorar', -1), ('gritar', -1), ('bem', 1), ('alto', 0)]
+
+
+Frase: - Não chores meu Dudleyzinho, lindo, a mamã não vai deixar que ele estrague o teu dia!
+Num palavras: 16
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['não', 'chores', 'meu', 'dudleyzinho', 'lir', 'a', 'mamã', 'não', 'vai', 'deixar', 'que', 'ele', 'estraguar', 'o', 'teu', 'dia']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - murmurou-lhe enquanto o envolvia num enorme abraço.  
+Num palavras: 8
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['murmurou-lhe', 'enquanto', 'o', 'envolver', 'num', 'enorme', 'abraço', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Eu... não... quero... que... ele... venha!
+Num palavras: 6
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['eu', 'não', 'querar', 'que', 'ele', 'vir']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - gritava Dudley entre enormes gritos de pretenso choro.
+Num palavras: 8
+Pontuação de sentimento: -2
+Evidências:
+	positivas: []
+	negativas: [('gritar', -1), ('pretenso', -1)]
+	neutras: ['dudley', 'entre', 'enormes', 'gritos', 'de', 'choro']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('gritar', -1), ('pretenso', -1)]
+
+
+Frase: - Ele estraga... sempre... tudo!
+Num palavras: 4
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('estragar', -1)]
+	neutras: ['ele', 'sempre', 'tudo']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('estragar', -1)]
+
+
+Frase: - Lançou a Harry um sorriso maldoso enquanto a mãe o abraçava.  
+Num palavras: 12
+Pontuação de sentimento: 0
+Evidências:
+	positivas: [('sorriso', 1)]
+	negativas: [('maldoso', -1)]
+	neutras: ['lançar', 'a', 'harry', 'um', 'enquanto', 'a', 'mãe', 'o', 'abraçar', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('sorriso', 1), ('maldoso', -1)]
+
+
+Frase: Foi então que tocou a campainha da porta.
+Num palavras: 8
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['foi', 'então', 'que', 'tocar', 'a', 'campainha', 'da', 'porta']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Oh!
+Num palavras: 1
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['oh']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Santo Deus, eles chegaram!
+Num palavras: 4
+Pontuação de sentimento: 2
+Evidências:
+	positivas: [('santo', 1), ('deus', 1)]
+	negativas: []
+	neutras: ['eles', 'chegar']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('santo', 1), ('deus', 1)]
+
+
+Frase: - disse a tia Petúnia muito nervosa, e no momento seguinte o melhor amigo de Dudley, Piers Polkiss, entrou com a mãe.
+Num palavras: 21
+Pontuação de sentimento: 2
+Evidências:
+	positivas: [('muito', 1), ('melhor', 1), ('amigo', 1)]
+	negativas: [('nervosa', -1)]
+	neutras: ['dizer', 'a', 'tia', 'petúnia', 'e', 'no', 'momento', 'seguinte', 'o', 'de', 'dudley', 'piers', 'polkiss', 'entrar', 'com', 'a', 'mãe']
+	negadores: []
+	boosters: [('muito', 1)]
+	ironia: []
+	emotions: [('nervosa', -1), ('melhor', 1), ('amigo', 1)]
+
+
+Frase: Piers era um rapazinho magricela com carinha de rato.
+Num palavras: 9
+Pontuação de sentimento: -2
+Evidências:
+	positivas: []
+	negativas: [('magricela', -1), ('rato', -1)]
+	neutras: ['piers', 'era', 'um', 'rapazinho', 'com', 'carinha', 'de']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('magricela', -1), ('rato', -1)]
+
+
+Frase: Era geralmente ele quem agarrava os braços dos outros garotos, enquanto Dudley lhos dava socos.
+Num palavras: 15
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: []
+	negativas: [('agarrar', -1), ('socos', -1)]
+	neutras: ['era', 'geralmente', 'ele', 'quem', 'os', 'braços', 'dos', 'outros', 'garotos', 'enquanto', 'dudley', 'lhos', 'dar']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('agarrar', -1), ('socos', -1)]
+
+
+Frase: Dudley parou, de imediato, com aquele choro fingido.
+Num palavras: 8
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: []
+	negativas: [('parar', -1), ('fingir', -1)]
+	neutras: ['dudley', 'de', 'imediato', 'com', 'aquele', 'choro']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('parar', -1), ('fingir', -1)]
+
+
+Frase: Meia hora mais tarde, Harry, que nem acreditava na sua sorte, estava sentado num dos assentos de trás do carro dos Dursleys com Piers e Dudley, a caminho do jardim zoológico, onde ia pela primeira vez em toda a sua vida.
+Num palavras: 41
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('tarde', -1)]
+	neutras: ['meia', 'hora', 'mais', 'harry', 'que', 'nem', 'acreditar', 'na', 'sua', 'sorte', 'estava', 'sentado', 'num', 'dos', 'assentos', 'de', 'trás', 'do', 'carro', 'dos', 'dursleys', 'com', 'piers', 'e', 'dudley', 'a', 'caminho', 'do', 'jardim', 'zoológico', 'onde', 'ir', 'pela', 'primeira', 'vez', 'em', 'toda', 'a', 'sua', 'vida']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('tarde', -1), ('acreditar', 0)]
+
+
+Frase: Os tios não tinham conseguido encontrar outra solução mas, antes de saírem de casa, o tio Vernon chamara-o à parte.  
+Num palavras: 21
+Pontuação de sentimento: -1
+Evidências:
+	positivas: [('parte', 1)]
+	negativas: []
+	neutras: ['os', 'tios', 'não', 'tinham', 'conseguir', 'encontrar', 'outra', 'solução', 'mas', 'antes', 'de', 'saírem', 'de', 'casa', 'o', 'tio', 'vernon', 'chamara-o', 'à', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('parte', 1)]
+
+
+Frase: - Estou a avisar-te - disse, aproximando a sua enorme cara rosada do rosto de Harry, - e toma bem atenção, qualquer gracinha e ficas fechado na despensa até ao Natal.  
+Num palavras: 29
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('bem', 1)]
+	negativas: [('cara', -1)]
+	neutras: ['estar', 'a', 'avisar-te', 'dizer', 'aproximar', 'a', 'sua', 'enorme', 'rosar', 'do', 'rosto', 'de', 'harry', 'e', 'tomar', 'atenção', 'qualquer', 'gracinha', 'e', 'ficas', 'fechar', 'na', 'despensa', 'até', 'ao', 'natal', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('cara', -1), ('bem', 1)]
+
+
+Frase: - Eu não vou fazer nada de mal - disse Harry - a sério...  
+Num palavras: 12
+Pontuação de sentimento: 1
+Evidências:
+	positivas: []
+	negativas: [('mal', -1)]
+	neutras: ['eu', 'não', 'vou', 'fazer', 'nada', 'de', 'dizer', 'harry', 'a', 'sério', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('mal', -1), ('sério', 0)]
+
+
+Frase: Mas o tio Vernon não acreditou.
+Num palavras: 6
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['mas', 'o', 'tio', 'vernon', 'não', 'acreditar']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('acreditar', 0)]
+
+
+Frase: Nunca ninguém acreditava.  
+Num palavras: 4
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['nunca', 'ninguém', 'acreditar', ' ']
+	negadores: ['nunca']
+	boosters: []
+	ironia: []
+	emotions: [('acreditar', 0)]
+
+
+Frase: A verdade é que aconteciam coisas estranhas em volta dele e não servia de nada dizer aos Dursleys que não as tinha provocado.  
+Num palavras: 24
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('verdade', 1)]
+	negativas: [('estranhas', -1), ('provocar', -1)]
+	neutras: ['a', 'ser', 'que', 'acontecer', 'coisas', 'em', 'volta', 'dele', 'e', 'não', 'servia', 'de', 'nada', 'dizer', 'aos', 'dursleys', 'que', 'não', 'as', 'tinha', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('verdade', 1), ('estranhas', -1), ('provocar', -1)]
+
+
+Frase: Certo dia a tia Petúnia, farta de o ver regressar do barbeiro com o mesmo aspecto com que lá entrara, pegou numa tesoura e cortou-lhe o cabelo tão curtinho que ficou praticamente calvo com excepção da franja que ela deixou para lhe tapar «aquela horrível cicatriz«. Dudley tinha-se fartado de o gozar e Harry passou a noite inteira sem conseguir dormir, a imaginar como seria a sua entrada na escola no dia seguinte, onde ele já era alvo de gozo por parte dos colegas por usar aquelas roupas larguíssimas e os óculos colados com fita-cola.
+Num palavras: 95
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: [('certo', 1), ('gozar', 1), ('como', 1), ('parte', 1)]
+	negativas: [('horrível', -1), ('cicatriz', -1), ('seria', -1), ('gozo', -1), ('usar', -1)]
+	neutras: ['dia', 'a', 'tia', 'petúnia', 'farta', 'de', 'o', 'ver', 'regressar', 'do', 'barbeiro', 'com', 'o', 'mesmo', 'aspecto', 'com', 'que', 'lá', 'entrar', 'pegar', 'numa', 'tesoura', 'e', 'cortou-lhe', 'o', 'cabelo', 'tão', 'curtinhar', 'que', 'ficar', 'praticamente', 'calvo', 'com', 'excepção', 'da', 'franja', 'que', 'ela', 'deixar', 'para', 'lhe', 'tapar', 'aquela', 'dudley', 'tinha-se', 'fartar', 'de', 'o', 'e', 'harry', 'passar', 'a', 'noite', 'inteira', 'sem', 'conseguir', 'dormir', 'a', 'imaginar', 'a', 'sua', 'entrada', 'na', 'escola', 'no', 'dia', 'seguinte', 'onde', 'ele', 'já', 'era', 'alvo', 'de', 'por', 'dos', 'colegas', 'por', 'aquelas', 'roupas', 'larguíssimas', 'e', 'os', 'óculos', 'colar', 'com', 'fita-cola']
+	negadores: []
+	boosters: [('seria', -1)]
+	ironia: []
+	emotions: [('certo', 1), ('horrível', -1), ('cicatriz', -1), ('gozar', 1), ('como', 1), ('gozo', -1), ('parte', 1), ('usar', -1)]
+
+
+Frase: Contudo, na manhã seguinte, descobriu que o cabelo estava exactamente como antes de a tia Petúnia lho ter cortado.
+Num palavras: 19
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('como', 1)]
+	negativas: [('cortar', -1)]
+	neutras: ['contudo', 'na', 'manhã', 'seguinte', 'descobrir', 'que', 'o', 'cabelo', 'estava', 'exactamente', 'antes', 'de', 'a', 'tia', 'petúnia', 'lho', 'ter']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('como', 1), ('cortar', -1)]
+
+
+Frase: Como castigo, passou uma semana inteira na despensa, por mais que tivesse tentado explicar que não sabia como o cabelo crescera com aquela rapidez.  
+Num palavras: 25
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: [('como', 1), ('como', 1)]
+	negativas: []
+	neutras: ['castigo', 'passar', 'uma', 'semana', 'inteira', 'na', 'despensa', 'por', 'mais', 'que', 'tivesse', 'tentar', 'explicar', 'que', 'não', 'saber', 'o', 'cabelo', 'crescerar', 'com', 'aquela', 'rapidez', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('como', 1), ('como', 1)]
+
+
+Frase: De outra vez, a tia Petúnia tentou obrigá-lo a vestir uma horrorosa camisola de lã do Dudley (castanha com borlas cor de laranja). Quanto mais ela se esforçava por lhe enfiar a camisola pela cabeça, mais pequena ela se tornava até que, por fim, ficou reduzida às dimensões de uma camisola de boneco.
+Num palavras: 54
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('pequena', 1)]
+	negativas: [('reduzido', -1)]
+	neutras: ['de', 'outra', 'vez', 'a', 'tia', 'petúnia', 'tentar', 'obrigar', 'ele', 'a', 'vestir', 'uma', 'horrorosa', 'camisola', 'de', 'lã', 'do', 'dudley', 'castanha', 'com', 'borlas', 'cor', 'de', 'laranja', 'quanto', 'mais', 'ela', 'se', 'esforçar', 'por', 'lhe', 'enfiar', 'a', 'camisola', 'pela', 'cabeça', 'mais', 'ela', 'se', 'tornar', 'até', 'que', 'por', 'fim', 'ficar', 'às', 'dimensões', 'de', 'uma', 'camisola', 'de', 'boneco']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('pequena', 1), ('reduzido', -1)]
+
+
+Frase: A tia Petúnia concluiu que certamente encolhera na lavagem e, para grande alívio de Harry, não foi castigado dessa vez.  
+Num palavras: 21
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: [('grande', 1), ('castigar', 1)]
+	negativas: []
+	neutras: ['a', 'tia', 'petúnia', 'concluir', 'que', 'certamente', 'encolhera', 'na', 'lavagem', 'e', 'para', 'alívio', 'de', 'harry', 'não', 'foi', 'dessa', 'vez', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('grande', 1), ('castigar', 1)]
+
+
+Frase: Por outro lado, meteu-se num tremendo sarilho ao ser encontrado no telhado da escola.
+Num palavras: 14
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('tremer', -1)]
+	neutras: ['por', 'outro', 'lado', 'meteu-se', 'num', 'sarilho', 'ao', 'ser', 'encontrar', 'no', 'telhado', 'da', 'escola']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('tremer', -1)]
+
+
+Frase: O grupo de Dudley perseguira-o como era costume quando, para sua grande surpresa, deu consigo sentado na chaminé.
+Num palavras: 18
+Pontuação de sentimento: 1.0
+Evidências:
+	positivas: [('como', 1), ('grande', 1)]
+	negativas: []
+	neutras: ['o', 'grupo', 'de', 'dudley', 'perseguira-o', 'era', 'costume', 'quando', 'para', 'sua', 'surpresa', 'dar', 'consigo', 'sentado', 'na', 'chaminé']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('como', 1), ('grande', 1)]
+
+
+Frase: Os Dursleys receberam uma carta muito acintosa da directora a dizer que o Harry andava a subir aos telhados da escola.
+Num palavras: 21
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('muito', 1)]
+	negativas: []
+	neutras: ['os', 'dursleys', 'receber', 'uma', 'carta', 'acintosa', 'da', 'directora', 'a', 'dizer', 'que', 'o', 'harry', 'andar', 'a', 'subir', 'aos', 'telhados', 'da', 'escola']
+	negadores: []
+	boosters: [('muito', 1)]
+	ironia: []
+	emotions: []
+
+
+Frase: Mas a única coisa que ele queria (como se fartou de gritar ao tio Vernon através da porta fechada da despensa) era saltar por detrás dos grandes caixotes que estavam fora da cozinha.
+Num palavras: 33
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('como', 1), ('grandes', 1)]
+	negativas: [('gritar', -1)]
+	neutras: ['mas', 'a', 'única', 'coisa', 'que', 'ele', 'querer', 'se', 'fartar', 'de', 'ao', 'tio', 'vernon', 'através', 'da', 'porta', 'fechar', 'da', 'despensa', 'era', 'saltar', 'por', 'detrás', 'dos', 'caixotes', 'que', 'estavam', 'fora', 'da', 'cozinha']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('como', 1), ('gritar', -1), ('grandes', 1)]
+
+
+Frase: Harry pensava que uma rabanada de vento o empurrara a meio do salto.  
+Num palavras: 14
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['harry', 'pensar', 'que', 'uma', 'rabanada', 'de', 'vento', 'o', 'empurrara', 'a', 'meio', 'do', 'salto', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Mas hoje não ia suceder nada de mal.
+Num palavras: 8
+Pontuação de sentimento: 1
+Evidências:
+	positivas: []
+	negativas: [('mal', -1)]
+	neutras: ['mas', 'hoje', 'não', 'ia', 'suceder', 'nada', 'de']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('mal', -1)]
+
+
+Frase: Até valia a pena aturar o Dudley e o Piers só para estar num lugar que não fosse a escola, a despensa ou a sala a cheirar a couve da senhora Figg.  
+Num palavras: 33
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: []
+	negativas: [('pena', -1)]
+	neutras: ['até', 'valer', 'a', 'aturar', 'o', 'dudley', 'e', 'o', 'piers', 'só', 'para', 'estar', 'num', 'lugar', 'que', 'não', 'fosse', 'a', 'escola', 'a', 'despensa', 'ou', 'a', 'sala', 'a', 'cheirar', 'a', 'couve', 'da', 'senhora', 'figg', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('pena', -1), ('aturar', 0)]
+
+
+Frase: Enquanto conduzia, o tio Vernon queixava-se à tia Petúnia.
+Num palavras: 10
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['enquanto', 'conduziar', 'o', 'tio', 'vernon', 'queixava', 'se', 'à', 'tia', 'petúnia']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Ele adorava queixar-se de tudo: dos colegas de trabalho, do Harry, do Governo, do Harry, do mau estado das estradas, do Harry...
+Num palavras: 23
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('mau', -1)]
+	neutras: ['ele', 'adorar', 'queixar', 'se', 'de', 'tudo', 'dos', 'colegas', 'de', 'trabalho', 'do', 'harry', 'do', 'governo', 'do', 'harry', 'do', 'estado', 'das', 'estradas', 'do', 'harry']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('adorar', 0), ('mau', -1)]
+
+
+Frase: Naquela manhã eram as motocicletas.  
+Num palavras: 6
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['naquela', 'manhã', 'eram', 'as', 'motocicletas', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: --... Fazem um ruído ensurdecedor, parecem doidos estes jovenzinhos marginais --, praguejou quando foi ultrapassado por uma moto.  
+Num palavras: 17
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: [('ultrapassar', 1)]
+	negativas: [('ruído', -1), ('ensurdecedor', -1), ('marginais', -1)]
+	neutras: ['fazer', 'um', 'parecer', 'doir', 'estes', 'jovenzinhos', 'praguejar', 'quando', 'foi', 'por', 'uma', 'moto', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('ruído', -1), ('ensurdecedor', -1), ('marginais', -1), ('ultrapassar', 1)]
+
+
+Frase: - Eu tive um sonho com uma moto...
+Num palavras: 7
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['eu', 'ter', 'um', 'sonho', 'com', 'uma', 'moto']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - disse o Harry, lembrando-se subitamente, -- ... que voava.  
+Num palavras: 9
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['dizer', 'o', 'harry', 'lembrar', 'se', 'subitamente', 'que', 'voar', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O tio Vernon quase bateu no carro da frente.
+Num palavras: 9
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('bater', -1)]
+	neutras: ['o', 'tio', 'vernon', 'quase', 'no', 'carro', 'da', 'frente']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('bater', -1)]
+
+
+Frase: Deu meia volta no assento e gritou ao Harry com o rosto parecendo uma gigantesca beterraba com bigode: - AS MOTOS NÃO VOAM.  
+Num palavras: 23
+Pontuação de sentimento: 1
+Evidências:
+	positivas: []
+	negativas: [('gritar', -1)]
+	neutras: ['dar', 'meia', 'volta', 'no', 'assento', 'e', 'ao', 'harry', 'com', 'o', 'rosto', 'parecer', 'uma', 'gigantesca', 'beterraba', 'com', 'bigode', 'as', 'motos', 'não', 'voar', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('gritar', -1)]
+
+
+Frase: O Dudley e o Piers riram à socapa.  
+Num palavras: 9
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('rir', 1)]
+	negativas: []
+	neutras: ['o', 'dudley', 'e', 'o', 'piers', 'à', 'socapa', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('rir', 1)]
+
+
+Frase: - Eu sei que não voam --, disse Harry.
+Num palavras: 7
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['eu', 'saber', 'que', 'não', 'voar', 'dizer', 'harry']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Foi só um sonho.  
+Num palavras: 5
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['foi', 'só', 'um', 'sonho', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Mas lamentou ter aberto a boca.
+Num palavras: 6
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('lamentar', -1)]
+	neutras: ['mas', 'ter', 'abrir', 'a', 'boca']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('lamentar', -1)]
+
+
+Frase: Se havia alguma coisa que os Dursleys detestassem mais ainda do que perguntas, era que ele falasse sobre alguma coisa fora do comum quer se tratasse de um sonho ou de um desenho animado - pareciam recear que ele pudesse vir a ter ideias perigosas.  
+Num palavras: 44
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('tratar', 1), ('animar', 1), ('ter ideias', 1)]
+	negativas: [('detestar', -1), ('comum', -1), ('perigosas', -1)]
+	neutras: ['se', 'haver', 'alguma', 'coisa', 'que', 'os', 'dursleys', 'mais', 'ainda', 'do', 'que', 'perguntas', 'ser', 'que', 'ele', 'falar', 'sobre', 'alguma', 'coisa', 'fora', 'do', 'querer', 'se', 'de', 'um', 'sonho', 'ou', 'de', 'um', 'desenho', 'parecer', 'recear', 'que', 'ele', 'poder', 'vir', 'a', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('detestar', -1), ('comum', -1), ('tratar', 1), ('animar', 1), ('ter ideias', 1), ('perigosas', -1)]
+
+
+Frase: Era um sábado cheio de sol e o jardim zoológico estava cheio de famílias.
+Num palavras: 14
+Pontuação de sentimento: -2
+Evidências:
+	positivas: []
+	negativas: [('cheio', -1), ('cheio', -1)]
+	neutras: ['era', 'um', 'sábado', 'de', 'sol', 'e', 'o', 'jardim', 'zoológico', 'estava', 'de', 'famílias']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('cheio', -1), ('cheio', -1)]
+
+
+Frase: Os Dursleys compraram ao Dudley e ao Piers dois grandes sorvetes de chocolate, logo à entrada, e depois, como a vendedora era uma senhora simpática que perguntou ao Harry se ele não queria nada antes de terem tido tempo de sair dali, compraram-lhe um gelado de limão dos mais baratos.
+Num palavras: 50
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: [('grandes', 1), ('como', 1), ('baratos', 1)]
+	negativas: [('gelado', -1)]
+	neutras: ['os', 'dursleys', 'comprar', 'ao', 'dudley', 'e', 'ao', 'piers', 'dois', 'sorvetes', 'de', 'chocolate', 'logo', 'à', 'entrada', 'e', 'depois', 'a', 'vendedora', 'era', 'uma', 'senhora', 'simpática', 'que', 'perguntar', 'ao', 'harry', 'se', 'ele', 'não', 'querer', 'nada', 'antes', 'de', 'terem', 'ter', 'tempo', 'de', 'sair', 'dali', 'compraram-lhe', 'um', 'de', 'limão', 'dos', 'mais']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('grandes', 1), ('como', 1), ('gelado', -1), ('baratos', 1)]
+
+
+Frase: Não era mau, pensou Harry, lambendo-o enquanto observava um gorila a coçar a cabeça c constatava a incrível parecença entre o símio e Dudley, apesar de o último ter o cabelo loiro.  
+Num palavras: 34
+Pontuação de sentimento: 2
+Evidências:
+	positivas: []
+	negativas: [('mau', -1), ('apesar', -1)]
+	neutras: ['não', 'era', 'pensar', 'harry', 'lamber', 'ele', 'enquanto', 'observar', 'um', 'gorila', 'a', 'coçar', 'a', 'cabeça', 'c', 'constatar', 'a', 'incrível', 'parecença', 'entre', 'o', 'símio', 'e', 'dudley', 'de', 'o', 'último', 'ter', 'o', 'cabelo', 'loiro', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('mau', -1), ('incrível', 0), ('apesar', -1)]
+
+
+Frase: Foi a melhor manhã desde há muito, muito tempo.
+Num palavras: 9
+Pontuação de sentimento: 3
+Evidências:
+	positivas: [('melhor', 1), ('muito', 1), ('muito', 1)]
+	negativas: []
+	neutras: ['foi', 'a', 'manhã', 'desde', 'há', 'tempo']
+	negadores: []
+	boosters: [('muito', 1), ('muito', 1)]
+	ironia: []
+	emotions: [('melhor', 1)]
+
+
+Frase: Harry teve o cuidado de se afastar um pouco dos Dursleys para que o Dudley e o Piers, que próximo da hora do almoço começavam a estar fartos de ver animais, não se lembrassem de passar à sua brincadeira predilecta: sová-lo.
+Num palavras: 41
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('brincadeira', 1)]
+	negativas: [('cuidado', -1)]
+	neutras: ['harry', 'ter', 'o', 'de', 'se', 'afastar', 'um', 'pouco', 'dos', 'dursleys', 'para', 'que', 'o', 'dudley', 'e', 'o', 'piers', 'que', 'próximo', 'da', 'hora', 'do', 'almoço', 'começar', 'a', 'estar', 'fartos', 'de', 'ver', 'animais', 'não', 'se', 'lembrar', 'de', 'passar', 'à', 'sua', 'predilecta', 'sová-lo']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('cuidado', -1), ('afastar', 0), ('brincadeira', 1)]
+
+
+Frase: Comeram num restaurante ali mesmo no jardim zoológico e, quando Dudley fez uma enorme birra porque a sua sobremesa não era suficientemente grande, o tio Vernon mandou vir outra e Harry teve licença de acabar a primeira.  
+Num palavras: 38
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('grande', 1)]
+	negativas: [('birra', -1)]
+	neutras: ['comer', 'num', 'restaurante', 'ali', 'mesmo', 'no', 'jardim', 'zoológico', 'e', 'quando', 'dudley', 'fazer', 'uma', 'enorme', 'porque', 'a', 'sua', 'sobremesa', 'não', 'era', 'suficientemente', 'o', 'tio', 'vernon', 'mandar', 'vir', 'outra', 'e', 'harry', 'ter', 'licença', 'de', 'acabar', 'a', 'primeira', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('birra', -1), ('grande', 1)]
+
+
+Frase: Harry pensou, mais tarde, que devia ter desconfiado de que tudo estava a ser bom de mais para durar muito.  
+Num palavras: 21
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('bom', 1), ('muito', 1)]
+	negativas: [('tarde', -1)]
+	neutras: ['harry', 'pensar', 'mais', 'que', 'dever', 'ter', 'desconfiar', 'de', 'que', 'tudo', 'estar', 'a', 'ser', 'de', 'mais', 'para', 'durar', ' ']
+	negadores: []
+	boosters: [('muito', 1)]
+	ironia: []
+	emotions: [('tarde', -1), ('bom', 1)]
+
+
+Frase: Depois do almoço foram ver a casa dos répteis.
+Num palavras: 9
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['depois', 'do', 'almoço', 'foram', 'ver', 'a', 'casa', 'dos', 'répteis']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Estava tudo escuro lá dentro, com jaulas de vidro iluminadas ao longo das paredes.
+Num palavras: 14
+Pontuação de sentimento: 0
+Evidências:
+	positivas: [('iluminar', 1)]
+	negativas: [('escuro', -1)]
+	neutras: ['estava', 'tudo', 'lá', 'dentro', 'com', 'jaulas', 'de', 'vidro', 'ao', 'longo', 'das', 'paredes']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('escuro', -1), ('iluminar', 1)]
+
+
+Frase: Por detrás dos vidros, toda a espécie de lagartos e cobras rastejavam e trepavam a pequenas pedras e pedaços de tronco.
+Num palavras: 21
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('pequenas', 1)]
+	negativas: [('rastejar', -1)]
+	neutras: ['por', 'detrás', 'dos', 'vidros', 'toda', 'a', 'espécie', 'de', 'lagartos', 'e', 'cobras', 'e', 'trepar', 'a', 'pedras', 'e', 'pedaços', 'de', 'tronco']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('rastejar', -1), ('pequenas', 1)]
+
+
+Frase: Dudley e Piers queriam ver as grandes serpentes venenosas e as gigantescas piton, capazes de engolir e triturar seres humanos.
+Num palavras: 20
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('grandes', 1)]
+	negativas: [('venenosas', -1)]
+	neutras: ['dudley', 'e', 'piers', 'querer', 'ver', 'as', 'serpentes', 'e', 'as', 'gigantescas', 'piton', 'capazes', 'de', 'engolir', 'e', 'triturar', 'seres', 'humanos']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('grandes', 1), ('venenosas', -1)]
+
+
+Frase: Dudley depressa descobriu a maior serpente de todas.
+Num palavras: 8
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['dudley', 'depressa', 'descobrir', 'a', 'maior', 'serpente', 'de', 'todas']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Era tão grande que o seu corpo poderia dar duas voltas ao carro do tio Vernon, esmagando-o e reduzindo-o a sucata.
+Num palavras: 23
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('grande', 1)]
+	negativas: [('esmagar', -1)]
+	neutras: ['era', 'tão', 'que', 'o', 'seu', 'corpo', 'poder', 'dar', 'duas', 'voltas', 'ao', 'carro', 'do', 'tio', 'vernon', 'ele', 'e', 'reduzir', 'ele', 'a', 'sucata']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('grande', 1), ('esmagar', -1)]
+
+
+Frase: Mas, naquele momento, o animal não parecia estar com disposição para isso.
+Num palavras: 12
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: []
+	negativas: [('animal', -1)]
+	neutras: ['mas', 'naquele', 'momento', 'o', 'não', 'parecer', 'estar', 'com', 'disposição', 'para', 'isso']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('animal', -1)]
+
+
+Frase: Na verdade, estava profundamente adormecido.  
+Num palavras: 6
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('verdade', 1)]
+	negativas: []
+	neutras: ['na', 'estava', 'profundamente', 'adormecer', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('verdade', 1)]
+
+
+Frase: Dudley encostou o nariz ao vidro, olhando fixamente para os brilhantes anéis acastanhados.  
+Num palavras: 14
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['dudley', 'encostar', 'o', 'nariz', 'ao', 'vidro', 'olhar', 'fixamente', 'para', 'os', 'brilhantes', 'anéis', 'acastanhados', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Fá-la mexer-se --, pediu ao pai.
+Num palavras: 6
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['fá-la', 'mexer', 'se', 'pedir', 'ao', 'pai']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O tio Vernon tocou ao de leve no vidro mas a serpente não se moveu.  
+Num palavras: 16
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['o', 'tio', 'vernon', 'tocar', 'ao', 'de', 'leve', 'no', 'vidro', 'mas', 'a', 'serpente', 'não', 'se', 'mover', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('leve', 0)]
+
+
+Frase: - Faz outra vez --, ordenou Dudley.
+Num palavras: 5
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['fazer', 'outra', 'vez', 'ordenar', 'dudley']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O tio Vernon bateu com mais força mas a cobra continuou a dormir.  
+Num palavras: 14
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('bater', -1)]
+	neutras: ['o', 'tio', 'vernon', 'com', 'mais', 'força', 'mas', 'a', 'cobra', 'continuar', 'a', 'dormir', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('bater', -1)]
+
+
+Frase: - Isto é uma chatice --, resmungou o Dudley, saindo dali.  
+Num palavras: 10
+Pontuação de sentimento: -2
+Evidências:
+	positivas: []
+	negativas: [('chatice', -1), ('resmungar', -1)]
+	neutras: ['isto', 'é', 'uma', 'o', 'dudley', 'sair', 'dali', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('chatice', -1), ('resmungar', -1)]
+
+
+Frase: Harry aproximou-se e olhou atentamente para a cobra.
+Num palavras: 9
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['harry', 'aproximar', 'se', 'e', 'olhar', 'atentamente', 'para', 'a', 'cobra']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Não se espantaria se ela tivesse morrido de tédio - sozinha, rodeada de gente estúpida, a bater com os dedos no vidro e a tentar incomodá-la a toda a hora.
+Num palavras: 30
+Pontuação de sentimento: 2.5
+Evidências:
+	positivas: []
+	negativas: [('morrer', -1), ('tédio', -1), ('sozinha', -1), ('bater', -1), ('incomodar', -1)]
+	neutras: ['não', 'se', 'espantar', 'se', 'ela', 'tivesse', 'de', 'rodear', 'de', 'gente', 'estúpida', 'a', 'com', 'os', 'dedos', 'no', 'vidro', 'e', 'a', 'tentar', 'ela', 'a', 'toda', 'a', 'hora']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('morrer', -1), ('tédio', -1), ('sozinha', -1), ('bater', -1), ('incomodar', -1)]
+
+
+Frase: Era pior ainda do que ter uma despensa como quarto, onde a única visita era a tia Petúnia a matraquear na porta para o acordar - pelo menos ele podia andar pelo resto da casa.  
+Num palavras: 35
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('como', 1)]
+	negativas: [('pior', -1), ('matraquear', -1)]
+	neutras: ['era', 'ainda', 'do', 'que', 'ter', 'uma', 'despensa', 'quarto', 'onde', 'a', 'única', 'visita', 'era', 'a', 'tia', 'petúnia', 'a', 'na', 'porta', 'para', 'o', 'acordar', 'pelo', 'menos', 'ele', 'poder', 'andar', 'pelo', 'resto', 'da', 'casa', ' ']
+	negadores: ['pelo']
+	boosters: []
+	ironia: []
+	emotions: [('pior', -1), ('como', 1), ('matraquear', -1)]
+
+
+Frase: De repente, a serpente abriu os olhos ensonados.
+Num palavras: 6
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('abrir os olhos', 1)]
+	negativas: []
+	neutras: ['de', 'repente', 'a', 'serpente', 'ensonar']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('abrir os olhos', 1)]
+
+
+Frase: Lenta, muito lentamente, levantou a cabeça até que os olhos ficaram ao nível dos de Harry.  
+Num palavras: 15
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('muito', 1), ('levantar a cabeça', 1)]
+	negativas: [('lenta', -1)]
+	neutras: ['lentamente', 'até', 'que', 'os', 'olhos', 'ficar', 'ao', 'nível', 'dos', 'de', 'harry', ' ']
+	negadores: []
+	boosters: [('muito', 1)]
+	ironia: []
+	emotions: [('lenta', -1), ('levantar a cabeça', 1)]
+
+
+Frase: Piscou os olhos.  
+Num palavras: 4
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['piscar', 'os', 'olhos', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Harry olhou-a fixamente.
+Num palavras: 3
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['harry', 'olhou-a', 'fixamente']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Em seguida, verificou se alguém por perto estava a observá-lo.
+Num palavras: 11
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['em', 'seguida', 'verificar', 'se', 'alguém', 'por', 'perto', 'estar', 'a', 'observar', 'ele']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Ninguém ali estava.
+Num palavras: 3
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['ninguém', 'ali', 'estar']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Voltou a olhar para a cobra e piscou também.  
+Num palavras: 10
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['voltar', 'a', 'olhar', 'para', 'a', 'cobra', 'e', 'piscar', 'também', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: A cobra fez um sinal de cabeça apontando para o tio Vernon e para Dudley, depois ergueu os olhos para o tecto e lançou a Harry um olhar que dizia claramente: - Eu tenho daquilo a toda a hora.  
+Num palavras: 39
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['a', 'cobra', 'fazer', 'um', 'sinal', 'de', 'cabeça', 'apontar', 'para', 'o', 'tio', 'vernon', 'e', 'para', 'dudley', 'depois', 'ergueu', 'os', 'olhos', 'para', 'o', 'tecto', 'e', 'lançar', 'a', 'harry', 'um', 'olhar', 'que', 'dizer', 'claramente', 'eu', 'ter', 'daquilo', 'a', 'toda', 'a', 'hora', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Eu sei --, murmurou Harry, através do vidro, embora não tivesse a certeza absoluta de que a cobra conseguia ouvi-lo.
+Num palavras: 19
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: []
+	negativas: [('murmurar', -1)]
+	neutras: ['eu', 'saber', 'harry', 'através', 'do', 'vidro', 'embora', 'não', 'ter', 'a', 'certeza', 'absoluta', 'de', 'que', 'a', 'cobra', 'conseguir', 'ouvi-lo']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('murmurar', -1)]
+
+
+Frase: - Deve ser bastante chato.  
+Num palavras: 5
+Pontuação de sentimento: -1
+Evidências:
+	positivas: []
+	negativas: [('chato', -1)]
+	neutras: ['dever', 'ser', 'bastante', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('chato', -1)]
+
+
+Frase: A serpente acenou vivamente.  
+Num palavras: 5
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['a', 'serpente', 'acenar', 'vivamente', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - De onde é que tu vieste, afinal?
+Num palavras: 7
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['de', 'onde', 'é', 'que', 'tu', 'vieste', 'afinal']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - perguntou Harry.  
+Num palavras: 3
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['perguntar', 'harry', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: A serpente fez sinal com a cauda chamando a atenção para um pequeno letreiro junto do vidro.
+Num palavras: 17
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('pequeno', 1)]
+	negativas: []
+	neutras: ['a', 'serpente', 'fazer', 'sinal', 'com', 'a', 'cauda', 'chamar', 'a', 'atenção', 'para', 'um', 'letreiro', 'junto', 'do', 'vidro']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('pequeno', 1)]
+
+
+Frase: Harry leu.
+Num palavras: 2
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['harry', 'ler']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: BOA CONSTRICTOR, BRASIL.  
+Num palavras: 4
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('boa', 1)]
+	negativas: []
+	neutras: ['constrictor', 'brasil', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('boa', 1)]
+
+
+Frase: - Era bom viver lá?  
+Num palavras: 5
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('bom', 1)]
+	negativas: []
+	neutras: ['era', 'viver', 'lá', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('bom', 1)]
+
+
+Frase: A Boa Constrictor abanou de novo com a cauda e Harry leu:  
+Num palavras: 13
+Pontuação de sentimento: 2
+Evidências:
+	positivas: [('boa', 1), ('abanar', 1)]
+	negativas: []
+	neutras: ['a', 'constrictor', 'de', 'novo', 'com', 'a', 'cauda', 'e', 'harry', 'ler', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('boa', 1), ('abanar', 1)]
+
+
+Frase: Este espécimen nasceu no zoológico.
+Num palavras: 5
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['este', 'espécimen', 'nascer', 'no', 'zoológico']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Ah! já percebi, nunca foste ao Brasil?  
+Num palavras: 8
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['ah', 'já', 'percebi', 'nunca', 'fostar', 'ao', 'brasil', ' ']
+	negadores: ['nunca']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Quando a serpente fez que não com a cabeça, um grito horripilante por detrás de Harry fê-los saltar aos dois. «Dudley, mr.
+Num palavras: 22
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: []
+	negativas: [('horripilante', -1)]
+	neutras: ['quando', 'a', 'serpente', 'fazer', 'que', 'não', 'com', 'a', 'cabeça', 'um', 'grito', 'por', 'detrás', 'de', 'harry', 'fê-los', 'saltar', 'aos', 'dois', 'dudley', 'mr']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('horripilante', -1)]
+
+
+Frase: Dursley! venha ver esta serpente.
+Num palavras: 5
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['dursley', 'vir', 'ver', 'esta', 'serpente']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Não vai acreditar no que ela está a fazer!»  
+Num palavras: 10
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['não', 'vai', 'acreditar', 'no', 'que', 'ela', 'estar', 'a', 'fazer', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('acreditar', 0)]
+
+
+Frase: Dudley veio a correr atrás deles o mais depressa que podia.  
+Num palavras: 12
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['dudley', 'vir', 'a', 'correr', 'atrás', 'deles', 'o', 'mais', 'depressa', 'que', 'poder', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: - Sai da frente, palerma - disse, dando um soco nas costas do Harry.
+Num palavras: 12
+Pontuação de sentimento: -2
+Evidências:
+	positivas: []
+	negativas: [('palerma', -1), ('soco', -1)]
+	neutras: ['sair', 'da', 'frente', 'dizer', 'dar', 'um', 'nas', 'costas', 'do', 'harry']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('palerma', -1), ('soco', -1)]
+
+
+Frase: Apanhado de surpresa, este caiu no chão duro de cimento.
+Num palavras: 10
+Pontuação de sentimento: -2
+Evidências:
+	positivas: []
+	negativas: [('cair', -1), ('duro', -1)]
+	neutras: ['apanhar', 'de', 'surpresa', 'este', 'no', 'chão', 'de', 'cimento']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('cair', -1), ('duro', -1)]
+
+
+Frase: O que aconteceu a seguir foi tão rápido que ninguém conseguiu ver coisa alguma - num momento Piers e Dudley estavam inclinados junto do vidro, no momento seguinte tinham dado um salto para trás soltando gritos de verdadeiro horror.  
+Num palavras: 39
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('rápido', 1), ('verdadeiro', 1)]
+	negativas: [('horror', -1)]
+	neutras: ['o', 'que', 'acontecer', 'a', 'seguir', 'foi', 'tão', 'que', 'ninguém', 'conseguir', 'ver', 'coisa', 'alguma', 'num', 'momento', 'piers', 'e', 'dudley', 'estavam', 'inclinados', 'junto', 'do', 'vidro', 'no', 'momento', 'seguinte', 'tinham', 'dar', 'um', 'salto', 'para', 'trás', 'soltar', 'gritos', 'de', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('rápido', 1), ('verdadeiro', 1), ('horror', -1)]
+
+
+Frase: Harry sentou-se no chão e suspirou.
+Num palavras: 7
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['harry', 'sentar', 'se', 'no', 'chão', 'e', 'suspirar']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O vidro da jaula da Boa Constrictor tinha desaparecido.
+Num palavras: 9
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('boa', 1)]
+	negativas: []
+	neutras: ['o', 'vidro', 'da', 'jaula', 'da', 'constrictor', 'tinha', 'desaparecir']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('boa', 1)]
+
+
+Frase: A enorme serpente desdobrava-se, deslizando pelo chão - toda a gente que estava na casa dos répteis gritava descontrolada e corria para as portas de saída.  
+Num palavras: 27
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: []
+	negativas: [('gritar', -1)]
+	neutras: ['a', 'enorme', 'serpente', 'desdobrav', 'se', 'deslizar', 'pelo', 'chão', 'toda', 'a', 'gente', 'que', 'estava', 'na', 'casa', 'dos', 'répteis', 'descontrolada', 'e', 'correr', 'para', 'as', 'portas', 'de', 'saída', ' ']
+	negadores: ['pelo']
+	boosters: []
+	ironia: []
+	emotions: [('gritar', -1)]
+
+
+Frase: Quando deslizou perto dele, Harry poderia jurar ter ouvido uma voz sibilante a dizer: - Brasssil, estou chegando.
+Num palavras: 17
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('jurar', 1)]
+	negativas: []
+	neutras: ['quando', 'deslizar', 'perto', 'dele', 'harry', 'poder', 'ter', 'ouvir', 'uma', 'voz', 'sibilante', 'a', 'dizer', 'brasssil', 'estou', 'chegar']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('jurar', 1)]
+
+
+Frase: Obrigada, amigão.  
+Num palavras: 3
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['obrigada', 'amigão', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O guarda da casa dos répteis estava em perfeito estado de choque.  
+Num palavras: 13
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('perfeito', 1)]
+	negativas: [('choque', -1)]
+	neutras: ['o', 'guarda', 'da', 'casa', 'dos', 'répteis', 'estava', 'em', 'estado', 'de', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('perfeito', 1), ('choque', -1)]
+
+
+Frase: - Mas o vidro --, repetia sem entender, - para onde foi o vidro?  
+Num palavras: 12
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['mas', 'o', 'vidro', 'repetiar', 'sem', 'entender', 'para', 'onde', 'foi', 'o', 'vidro', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O director do jardim zoológico fez questão de oferecer à tia Petúnia uma chávena de chá forte enquanto lhe pedia repetidas desculpas.
+Num palavras: 22
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('forte', 1)]
+	negativas: [('desculpas', -1)]
+	neutras: ['o', 'director', 'do', 'jardim', 'zoológico', 'fazer', 'questão', 'de', 'oferecer', 'à', 'tia', 'petúnia', 'uma', 'chávena', 'de', 'chá', 'enquanto', 'lhe', 'pedir', 'repetir']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('forte', 1), ('desculpas', -1)]
+
+
+Frase: Piers e Dudley não conseguiam calar-se.
+Num palavras: 7
+Pontuação de sentimento: -1
+Evidências:
+	positivas: [('calar', 1)]
+	negativas: []
+	neutras: ['piers', 'e', 'dudley', 'não', 'conseguir', 'se']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('calar', 1)]
+
+
+Frase: Tanto quanto Harry tinha visto, a cobra não fizera nada a não ser um ruído brincalhão, ao passar junto dos calcanhares dos dois, mas, quando chegaram ao carro do tio Vernon, o Dudley já estava a contar que ela por pouco não lhe mordera a perna, enquanto Piers jurava a pés juntos que ela tinha tentado matá-lo.
+Num palavras: 58
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: [('jurar', 1)]
+	negativas: [('ruído', -1)]
+	neutras: ['tanto', 'quanto', 'harry', 'tinha', 'ver', 'a', 'cobra', 'não', 'fazer', 'nada', 'a', 'não', 'ser', 'um', 'brincalhão', 'ao', 'passar', 'junto', 'dos', 'calcanhares', 'dos', 'dois', 'mas', 'quando', 'chegar', 'ao', 'carro', 'do', 'tio', 'vernon', 'o', 'dudley', 'já', 'estar', 'a', 'contar', 'que', 'ela', 'por', 'pouco', 'não', 'lhe', 'morderar', 'a', 'perna', 'enquanto', 'piers', 'a', 'pés', 'juntos', 'que', 'ela', 'tinha', 'tentar', 'matá', 'lo']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('ruído', -1), ('brincalhão', 0), ('jurar', 1)]
+
+
+Frase: Mas o pior de tudo foi a frase de Piers quando se acalmou: - O Harry estava a falar com a cobra.
+Num palavras: 21
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('pior', -1)]
+	neutras: ['mas', 'o', 'de', 'tudo', 'foi', 'a', 'frase', 'de', 'piers', 'quando', 'se', 'acalmar', 'o', 'harry', 'estar', 'a', 'falar', 'com', 'a', 'cobra']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('pior', -1)]
+
+
+Frase: Não estavas, Harry?  
+Num palavras: 4
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['não', 'estavas', 'harry', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O tio Vernon esperou até Piers se ter ido embora antes de «tratar» do sobrinho.
+Num palavras: 15
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('tratar', 1)]
+	negativas: []
+	neutras: ['o', 'tio', 'vernon', 'esperar', 'até', 'piers', 'se', 'ter', 'ir', 'embora', 'antes', 'de', 'do', 'sobrinho']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('tratar', 1)]
+
+
+Frase: Estava tão zangado que mal conseguia articular as palavras.
+Num palavras: 9
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: []
+	negativas: [('zangado', -1), ('mal', -1)]
+	neutras: ['estava', 'tão', 'que', 'conseguir', 'articular', 'as', 'palavras']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('zangado', -1), ('mal', -1)]
+
+
+Frase: Foi capaz de dizer - Vai... despensa... ficas... sem comer --, antes de se afundar na cadeira enquanto a tia Petúnia corria a preparar-lhe uma taça grande de brande.  
+Num palavras: 29
+Pontuação de sentimento: 3
+Evidências:
+	positivas: [('capaz', 1), ('afundar', 1), ('grande', 1)]
+	negativas: []
+	neutras: ['foi', 'de', 'dizer', 'vai', 'despensa', 'ficas', 'sem', 'comer', 'antes', 'de', 'se', 'na', 'cadeira', 'enquanto', 'a', 'tia', 'petúnia', 'correr', 'a', 'preparar', 'ele', 'uma', 'taça', 'de', 'brande', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('capaz', 1), ('afundar', 1), ('grande', 1)]
+
+
+Frase: Harry ficou na escuridão da despensa durante muito tempo, desejando ter um relógio.
+Num palavras: 13
+Pontuação de sentimento: 1
+Evidências:
+	positivas: [('muito', 1)]
+	negativas: []
+	neutras: ['harry', 'ficar', 'na', 'escuridão', 'da', 'despensa', 'durante', 'tempo', 'desejar', 'ter', 'um', 'relógio']
+	negadores: []
+	boosters: [('muito', 1)]
+	ironia: []
+	emotions: []
+
+
+Frase: Como não sabia as horas não tinha a certeza se os Dursleys já se teriam deitado.
+Num palavras: 16
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: [('como', 1)]
+	negativas: []
+	neutras: ['não', 'saber', 'as', 'horas', 'não', 'ter', 'a', 'certeza', 'se', 'os', 'dursleys', 'já', 'se', 'teriam', 'deitar']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('como', 1)]
+
+
+Frase: Antes disso não se arriscava a tentar chegar à cozinha para comer qualquer coisa.  
+Num palavras: 15
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['antes', 'disso', 'não', 'se', 'arriscar', 'a', 'tentar', 'chegar', 'à', 'cozinha', 'para', 'comer', 'qualquer', 'coisa', ' ']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Vivia com os Dursleys havia quase dez anos.
+Num palavras: 8
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['viver', 'com', 'os', 'dursleys', 'haver', 'quase', 'dez', 'anos']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Dez anos miseráveis, desde bebé, quando os pais tinham morrido num acidente de automóvel.
+Num palavras: 14
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: []
+	negativas: [('morrer', -1), ('acidente', -1)]
+	neutras: ['dez', 'anos', 'miseráveis', 'desde', 'bebé', 'quando', 'os', 'pais', 'tinham', 'num', 'de', 'automóvel']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('morrer', -1), ('acidente', -1)]
+
+
+Frase: Não se lembrava de ter estado dentro desse carro em que os pais tinham morrido. Às vezes, quando puxava pela memória, durante as longas horas que passava trancado na despensa, tinha uma estranha reminiscência: uma fortíssima luz verde e uma dor a queimar-lhe a testa.
+Num palavras: 45
+Pontuação de sentimento: 1.5
+Evidências:
+	positivas: []
+	negativas: [('morrer', -1), ('estranha', -1), ('dor', -1)]
+	neutras: ['não', 'se', 'lembrar', 'de', 'ter', 'estado', 'dentro', 'desse', 'carro', 'em', 'que', 'os', 'pais', 'tinham', 'às', 'vezes', 'quando', 'puxar', 'pela', 'memória', 'durante', 'as', 'longas', 'horas', 'que', 'passar', 'trancar', 'na', 'despensa', 'ter', 'uma', 'reminiscência', 'uma', 'fortíssima', 'luz', 'verde', 'e', 'uma', 'a', 'queimar-lhe', 'a', 'testa']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('morrer', -1), ('estranha', -1), ('dor', -1)]
+
+
+Frase: Aquilo, imaginava ele, deveria ter sido o acidente, apesar de não conseguir entender de onde vinha a luz verde.
+Num palavras: 19
+Pontuação de sentimento: 1.0
+Evidências:
+	positivas: []
+	negativas: [('acidente', -1), ('apesar', -1)]
+	neutras: ['aquilo', 'imaginar', 'ele', 'dever', 'ter', 'sido', 'o', 'de', 'não', 'conseguir', 'entender', 'de', 'onde', 'vir', 'a', 'luz', 'verde']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('acidente', -1), ('apesar', -1)]
+
+
+Frase: Não tinha qualquer imagem dos pais.
+Num palavras: 6
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['não', 'ter', 'qualquer', 'imagem', 'dos', 'pais']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O tio e a tia nunca falavam deles, ele estava proibido de fazer perguntas e, naturalmente, não existiam fotografias deles naquela casa.  
+Num palavras: 23
+Pontuação de sentimento: 0.0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['o', 'tio', 'e', 'a', 'tia', 'nunca', 'falar', 'deles', 'ele', 'estava', 'proibido', 'de', 'fazer', 'perguntas', 'e', 'naturalmente', 'não', 'existir', 'fotografias', 'deles', 'naquela', 'casa', ' ']
+	negadores: ['nunca', 'não']
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Quando era mais pequeno, Harry sonhava repetidamente que um parente desconhecido viria buscá-lo um dia mas tal nunca aconteceu.
+Num palavras: 19
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: [('pequeno', 1)]
+	negativas: []
+	neutras: ['quando', 'era', 'mais', 'harry', 'sonhar', 'repetidamente', 'que', 'um', 'parente', 'desconhecer', 'vir', 'buscá-lo', 'um', 'dia', 'mas', 'tal', 'nunca', 'acontecer']
+	negadores: ['nunca']
+	boosters: []
+	ironia: []
+	emotions: [('pequeno', 1)]
+
+
+Frase: Os Dursleys eram a sua única família.
+Num palavras: 7
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['os', 'dursleys', 'eram', 'a', 'sua', 'única', 'família']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: Todavia ele pensava, às vezes, ou seria esse o seu desejo, que as pessoas estranhas na rua o conheciam.
+Num palavras: 19
+Pontuação de sentimento: -1.0
+Evidências:
+	positivas: []
+	negativas: [('seria', -1), ('estranhas', -1)]
+	neutras: ['todavia', 'ele', 'pensar', 'às', 'vezes', 'ou', 'esse', 'o', 'seu', 'desejo', 'que', 'as', 'pessoas', 'na', 'rua', 'o', 'conhecir']
+	negadores: []
+	boosters: [('seria', -1)]
+	ironia: []
+	emotions: [('estranhas', -1)]
+
+
+Frase: Estranhos realmente estranhos.
+Num palavras: 3
+Pontuação de sentimento: -1
+Evidências:
+	positivas: [('realmente', 1)]
+	negativas: [('estranhos', -1), ('estranhos', -1)]
+	neutras: []
+	negadores: []
+	boosters: [('realmente', 1)]
+	ironia: []
+	emotions: [('estranhos', -1), ('estranhos', -1)]
+
+
+Frase: Um homem pequenino com um chapéu alto cor de violeta cumprimentara-o com uma vénia num dia em que ele andava às compras com o Dudley e a tia Petúnia.
+Num palavras: 29
+Pontuação de sentimento: 0.5
+Evidências:
+	positivas: [('pequenino', 1)]
+	negativas: []
+	neutras: ['um', 'homem', 'com', 'um', 'chapéu', 'alto', 'cor', 'de', 'violeta', 'cumprimentara-o', 'com', 'uma', 'vénia', 'num', 'dia', 'em', 'que', 'ele', 'andar', 'às', 'compras', 'com', 'o', 'dudley', 'e', 'a', 'tia', 'petúnia']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('pequenino', 1), ('alto', 0)]
+
+
+Frase: Depois de lhe perguntar, furiosa, se conhecia aquele homem, a tia Petúnia saiu apressadamente do armazém sem comprar coisa alguma.  
+Num palavras: 21
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: []
+	negativas: [('furiosa', -1)]
+	neutras: ['depois', 'de', 'lhe', 'perguntar', 'se', 'conhecer', 'aquele', 'homem', 'a', 'tia', 'petúnia', 'sair', 'apressadamente', 'do', 'armazém', 'sem', 'comprar', 'coisa', 'alguma', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('furiosa', -1)]
+
+
+Frase: Uma mulher de idade com um aspecto rude, vestida de verde dos pés à cabeça, acenara-lhe alegremente num autocarro.
+Num palavras: 19
+Pontuação de sentimento: 0
+Evidências:
+	positivas: [('alegremente', 1)]
+	negativas: [('rude', -1)]
+	neutras: ['uma', 'mulher', 'de', 'idade', 'com', 'um', 'aspecto', 'vester', 'de', 'verde', 'dos', 'pés', 'à', 'cabeça', 'acenara-lhe', 'num', 'autocarro']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('rude', -1), ('alegremente', 1)]
+
+
+Frase: Um homem calvo, vestindo um casaco excessivamente longo cor de purpura, apertara-lhe a mão na rua e em seguida continuara o seu caminho sem terem trocado uma única palavra.  
+Num palavras: 30
+Pontuação de sentimento: 0
+Evidências:
+	positivas: []
+	negativas: []
+	neutras: ['um', 'homem', 'calvo', 'vestir', 'um', 'casaco', 'excessivamente', 'longo', 'cor', 'de', 'purpura', 'apertara-lhe', 'a', 'mão', 'na', 'rua', 'e', 'em', 'seguida', 'continuar', 'o', 'seu', 'caminho', 'sem', 'terem', 'trocar', 'uma', 'única', 'palavra', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: []
+
+
+Frase: O mais esquisito em todas aquelas pessoas era a forma de desaparecerem no momento em que Harry tentava vê-las melhor.  
+Num palavras: 21
+Pontuação de sentimento: -0.5
+Evidências:
+	positivas: [('melhor', 1)]
+	negativas: [('esquisito', -1), ('desaparecer', -1)]
+	neutras: ['o', 'mais', 'em', 'todas', 'aquelas', 'pessoas', 'era', 'a', 'forma', 'de', 'no', 'momento', 'em', 'que', 'harry', 'tentar', 'vê-las', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('esquisito', -1), ('desaparecer', -1), ('melhor', 1)]
+
+
+Frase: Na escola, Harry não tinha nenhum amigo.
+Num palavras: 7
+Pontuação de sentimento: -1
+Evidências:
+	positivas: [('amigo', 1)]
+	negativas: []
+	neutras: ['na', 'escola', 'harry', 'não', 'ter', 'nenhum']
+	negadores: ['não']
+	boosters: []
+	ironia: []
+	emotions: [('amigo', 1)]
+
+
+Frase: Todos sabiam que o grupo do Dudley detestava o estranho Harry Potter com as suas roupas enormes e velhas e os seus óculos partidos, presos com fita-cola e ninguém queria desagradar ao grupo do Dudley.  
+Num palavras: 36
+Pontuação de sentimento: -1.5
+Evidências:
+	positivas: []
+	negativas: [('detestar', -1), ('estranho', -1), ('velhas', -1)]
+	neutras: ['todos', 'saber', 'que', 'o', 'grupo', 'do', 'dudley', 'o', 'harry', 'potter', 'com', 'as', 'suas', 'roupas', 'enormes', 'e', 'e', 'os', 'seus', 'óculos', 'partidos', 'presar', 'com', 'fita-cola', 'e', 'ninguém', 'querer', 'desagradar', 'ao', 'grupo', 'do', 'dudley', ' ']
+	negadores: []
+	boosters: []
+	ironia: []
+	emotions: [('detestar', -1), ('estranho', -1), ('velhas', -1)]
+
+
+Pontuação do capítulo: -1.5
+

@@ -11,7 +11,7 @@
         {name = "Rafael Correia", email = "pg54162@uminho.pt"},
         {name = "Robert Szabo", email = "pg54194@uminho.pt"}
     ]
-    version = "0.1.0"
+    version = "0.1.1"
     readme = "README.md"
     classifiers = [
         "License :: OSI Approved :: MIT License",

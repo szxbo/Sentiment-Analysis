@@ -1,17 +1,42 @@
 """
     NAME
         sentiment-analysis.py
-        
-    This script performs sentiment analysis on text data. It uses a combination of
-    dictionaries and rules to determine the sentiment score of a given text.
     
+    DESCRIPTION
+        This program analyzes the sentiment of a given text file or user input.
+        It uses the spaCy library to process the text and the Matcher class to match multiword expressions.
+        The program uses several datasets to analyze the sentiment of the text, such as BoosterWordList, EmoticonLookupTable,
+        EmotionLookupTable, IronyTerms, NegatingWordList, QuestionWords, SlangLookupTable and Sentilex.
+        The program can analyze the sentiment of a book, splitting it into chapters and analyzing each chapter.
+        The program can also analyze the sentiment of test sentences.
+    
+    OPTIONS
+        [no options]    :   User input mode.
+        -f <file_path>  :   Path to the file to be analyzed.
+        -t              :   Test mode.
+    
+    EXAMPLES
+        python sentiment-analysis.py
+        python sentiment-analysis.py -f HP.txt
+        python sentiment-analysis.py -t
+        
+    AUTHOR
+        Francisca Barros, Rafael Correia, Robert Szabo
+    
+    VERSION
+        0.1.1
+        
+    DEPENDENCIES
+        spacy
+        matplotlib
+        jjcli    
 """
 
 import spacy
-from spacy import displacy
 from spacy.matcher import Matcher
+from jjcli import *
+import matplotlib.pyplot as plt
 import os
-
 
 # Carregar os dados dos arquivos
 def load_data(file_path,flag=1):
@@ -46,24 +71,23 @@ def load_data_sentilex(file_path,flag=1):
                 matcher.add(word, [pattern])
     return expressions,data
 
-nlp = spacy.load('pt_core_news_lg')
-# Initialize the Matcher
-matcher = Matcher(nlp.vocab)
+def init():
+    # Load the language model   
+    nlp = spacy.load('pt_core_news_lg')
+    # Initialize the Matcher
+    matcher = Matcher(nlp.vocab)
+    # Carregar os datasets
+    print("A carregar datasets...")
+    booster_words = load_data('data/BoosterWordList.txt')
+    emoticons = load_data('data/EmoticonLookupTable.txt')
+    expressions,emotions = load_data_sentilex('data/palavras.txt')
+    emotions2 = load_data('data/EmotionLookupTable.txt')
+    emotions.update(emotions2)
+    irony_terms = set(open('data/IronyTerms.txt', 'r', encoding='utf-8').read().splitlines())
+    negating_words = set(open('data/NegatingWordList.txt', 'r', encoding='utf-8').read().splitlines())
+    question_words = set(open('data/QuestionWords.txt', 'r', encoding='utf-8').read().splitlines())
+    slang_lookup_table = load_data('data/SlangLookupTable.txt',0)
 
-# Carregar os datasets
-print("A carregar datasets...")
-booster_words = load_data('data/BoosterWordList.txt')
-emoticons = load_data('data/EmoticonLookupTable.txt')
-expressions,emotions = load_data_sentilex('data/palavras.txt')
-emotions2 = load_data('data/EmotionLookupTable.txt')
-emotions.update(emotions2)
-irony_terms = set(open('data/IronyTerms.txt', 'r', encoding='utf-8').read().splitlines())
-negating_words = set(open('data/NegatingWordList.txt', 'r', encoding='utf-8').read().splitlines())
-question_words = set(open('data/QuestionWords.txt', 'r', encoding='utf-8').read().splitlines())
-slang_lookup_table = load_data('data/SlangLookupTable.txt',0)
-
-
-# Add the multi-word expression pattern to the matcher
 def analyze_sentiment_sentence(text):
 
     text = text.lower()
@@ -71,8 +95,6 @@ def analyze_sentiment_sentence(text):
     #transformar tudo nos seus lemmas
     texto_com_lemmas = " ".join([token.lemma_ if token.pos_ == "VERB" else token.text for token in doc])
     doc = nlp(texto_com_lemmas)
-
-    
     
     
     matches = matcher(doc)
@@ -84,11 +106,6 @@ def analyze_sentiment_sentence(text):
             span = doc[start:end]
             retokenizer.merge(span)
             
-    rend = displacy.render(, style='dep')
-    # escrever rend para um ficheiro html
-    with open('test.html', 'w') as file:
-        file.write(rend)
-        file.write('<hr/>\n') 
             
     # remover pontuação
     doc = [token for token in doc if not token.is_punct]
@@ -108,10 +125,6 @@ def analyze_sentiment_sentence(text):
     boost = 1
     
     for token in doc:
-        
-        
-        
-        
         if len(text.split(" ")) > 1:
             lemma = token.text
         else:
@@ -121,6 +134,8 @@ def analyze_sentiment_sentence(text):
         if lemma in booster_words:
             token_score = booster_words[lemma]
             evidencias['boosters'].append((lemma,token_score))
+            boost += token_score
+            token_score = 0
         elif lemma in emoticons:
             token_score = emoticons[lemma]
             evidencias['emotions'].append((lemma,token_score))
@@ -163,10 +178,9 @@ def analyze_sentiment_sentence(text):
     
     return avaliacao
 
-
 def analyze_sentiment_book(book_path):
     print(f"A carregar livro {book_path}...")
-    book_score = 0
+    all_scores = []
     with open(book_path, 'r', encoding='utf-8') as file:
         text = file.read()
         print("Livro carregado...")
@@ -181,7 +195,7 @@ def analyze_sentiment_book(book_path):
         
         # analisar cada capítulo
         for i, chapter in enumerate(chapters[1:]):
-            with open(f'chapter_{i}.txt', 'w') as chapter_file:
+            with open(f'chapter_{i+1}.txt', 'w') as chapter_file:
                 # split por frases (\n) (primeira frase é o número do capítulo)
                 sentences = chapter.split('\n')
                 chapter_number = sentences.pop(0)                
@@ -204,10 +218,31 @@ def analyze_sentiment_book(book_path):
                 chapter_file.write(f"\nPontuação do capítulo: {chapter_score}\n")
                 chapter_file.write("\n")
             print(f"Capítulo {chapter_number} analisado -> score: {chapter_score}")
-            book_score += chapter_score
-        
+            all_scores.append(chapter_score)
+        os.chdir('..')
+    
+    # all_scores = [-26, -4, -46.5, -30, 26.5, -6, -25, -26, -38, -32, -25, -16.5, -5.5, -15.5, -40, -45, -47.5]µ
+    hist_sentiment(all_scores)
+    book_score = sum(all_scores)
     return book_score
 
+def hist_sentiment(scores):
+    # histograma com a pontuação de cada capítulo usando o matplotlib
+    # x -> pontuação (pode ser positiva ou negativa)
+    # y -> número de capítulos (17 capítulos)
+    capitulos = [i for i in range(17)]
+    # quero valores do score em cima das barras se forem positivos, em baixo se forem negativos
+    for i, score in enumerate(scores):
+        if score > 0:
+            plt.text(i, score, score, ha='center', va='bottom')
+        else:
+            plt.text(i, score, score, ha='center', va='top')
+    plt.bar(capitulos, scores)
+    plt.title('Pontuação de cada capítulo')
+    plt.xlabel('Pontuação')
+    plt.ylabel('Número de capítulos')
+    plt.show()
+    
 def user_input():
     while(text:=input("\nInsira frase: ")):
         # guardar valores de avaliação num dicionario com a frase, evidencias e score
@@ -217,22 +252,21 @@ def user_input():
         # imprimir evidencias
         print("Evidências:")
         for key in avaliacao['evidencias']:
-            print("\t", key,":",avaliacao['evidencias'][key])
-    
+            print("\t", key,":",avaliacao['evidencias'][key]) 
     
 def frases_teste():
     frases = """
-    O café muito quente queimou-me a minha língua, mas eu gosto.
-    Música alta sabe-me bem, mas os vizinhos queixam-se.
-    Estes gatos só deixam pelos por todo o lado.
-    Tenho um teclado novo, mas não funciona.
-    Que bom é acordar pela manhã e não ter preocupações.
-    Amanhã vou sair com os meus amigos, nunca me diverti tanto.
-    Amor e ódio são sentimentos opostos.
-    Quando é que vais embora?
-    Não quero que fiques, mas vais-me fazer falta.
-    O stress causado pelo trabalho é insuportável.
-    """
+O café muito quente queimou-me a minha língua, mas eu gosto da sensação.
+Música alta sabe-me bem, mas os vizinhos queixam-se.
+Estes gatos só deixam pelos por todo o lado.
+Tenho um teclado novo, mas não funciona.
+Que bom é acordar pela manhã e não ter preocupações.
+Amanhã vou sair com os meus amigos, nunca me diverti tanto.
+Amor e ódio são sentimentos opostos.
+Quando é que vais embora?
+Não quero que fiques, mas vais-me fazer falta.
+O stress causado pelo trabalho é insuportável.
+"""
     
     # separar frases por \n
     frases = frases.split('\n')
@@ -249,14 +283,32 @@ def frases_teste():
             print("\n")
     
 def main():
-    #book_score = analyze_sentiment_book('HP.txt')
-    #print(f"\nPontuação do livro: {book_score}")
-    frases_teste()
+    cl = clfilter("f:it", doc=__doc__)     ## option values in cl.opt dictionary
     
+    if '-f' in cl.opt:
+        init()
+        file_path = cl.opt['-f']
+        if file_path.endswith('.txt'):
+            if os.path.exists(file_path):
+                # analisar sentimento do livro
+                book_score = analyze_sentiment_book(file_path)
+                print(f"\nPontuação do livro: {book_score}")
+            else:
+                print("Ficheiro não encontrado.")
+        else:
+            print("Ficheiro não suportado.")
+        
+    elif '-t' in cl.opt:
+        init()
+        frases_teste()
+        
+    else:
+        # default: user input mode
+        init()
+        user_input()
     
 if __name__ == '__main__':
     main()
-    #user_input()
 
 # Ideias:
     """
@@ -269,18 +321,4 @@ if __name__ == '__main__':
     Se a frase for positiva e tiver um verbo no passado, serve como um booster para a positividade.
         Ex: eu ganhei ontem -> mais positivo
         Ex: eu vou ganhar -> menos positivo
-        
-        
-    Frases de teste:
-    O café muito quente queimou-me a minha língua, mas eu gosto.
-    Música alta sabe-me bem, mas os vizinhos queixam-se.
-    Estes gatos só deixam pelos por todo o lado.
-    Tenho um teclado novo, mas não funciona.
-    Que bom é acordar pela manhã e não ter preocupações.
-    Amanhã vou sair com os meus amigos, nunca me diverti tanto.
-    Amor e ódio são sentimentos opostos.
-    Quando é que vais embora?
-    Não quero que fiques, mas vais-me fazer falta.
-    O stress causado pelo trabalho é insuportável.
-    
     """

@@ -2,15 +2,13 @@
 """
 python3 makepyproject.py    
 """
-import json
-import os
+
 import jinja2
-import jjcli
 from glob import glob
 
 def main():    
     name = "sentiment_analysis"
-    __version__ = "0.1.1"
+    __version__ = "0.2.1"
     autores = ["Francisca Barros", "Rafael Correia", "Robert Szabo"]
     emails = ["pg53816@uminho.pt","pg54162@uminho.pt","pg54194@uminho.pt"]
 
@@ -36,7 +34,9 @@ def main():
     dynamic = ["description"]
 
     dependencies = [
-        "spacy"
+        "spacy",
+        "jjcli",
+        "matplotlib"                 
     ]
 
     [project.scripts]

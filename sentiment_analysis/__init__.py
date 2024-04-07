@@ -1,6 +1,6 @@
 """
     NAME
-        sentiment-analysis.py
+        sentiment_analysis
     
     DESCRIPTION
         This program analyzes the sentiment of a given text file or user input.
@@ -12,19 +12,20 @@
     
     OPTIONS
         [no options]    :   User input mode.
-        -f <file_path>  :   Path to the file to be analyzed.
+        -f <file_path>  :   Path to the book file to be analyzed.
         -t              :   Test mode.
     
     EXAMPLES
-        python sentiment-analysis.py
-        python sentiment-analysis.py -f HP.txt
-        python sentiment-analysis.py -t
+        sentiment-analysis
+        sentiment-analysis -f HP.txt
+        sentiment-analysis -t
         
     AUTHOR
         Francisca Barros, Rafael Correia, Robert Szabo
+        (pg53816@uminho.pt, pg54162@uminho.pt, pg54194@uminho.pt)
     
     VERSION
-        0.1.1
+        0.2.1
         
     DEPENDENCIES
         spacy
@@ -37,6 +38,44 @@ from spacy.matcher import Matcher
 from jjcli import *
 import matplotlib.pyplot as plt
 import os
+import subprocess
+
+def init():
+    # Load the language model   
+    global nlp
+    try:
+        nlp = spacy.load('pt_core_news_lg')
+    except OSError:
+        print("Model not found. In order to work, the model 'pt_core_news_lg' (568.2 MB) must be downloaded.")
+        print("Do you want to download it now? (y/n)")
+        if input().lower() == 'y':
+            subprocess.run(['python', '-m', 'spacy', 'download', 'pt_core_news_lg'])
+            nlp = spacy.load('pt_core_news_lg')
+        else:
+            print("Exiting program.")
+            exit(1)
+    # Initialize the Matcher
+    global matcher
+    matcher = Matcher(nlp.vocab)
+    # Carregar os datasets
+    print("Loading datasets...")
+    global booster_words
+    booster_words = load_data('data/BoosterWordList.txt')
+    global emoticons
+    emoticons = load_data('data/EmoticonLookupTable.txt')
+    global expressions, emotions
+    expressions, emotions = load_data_sentilex('data/palavras.txt')
+    global emotions2
+    emotions2 = load_data('data/EmotionLookupTable.txt')
+    emotions.update(emotions2)
+    global irony_terms
+    irony_terms = set(open('data/IronyTerms.txt', 'r', encoding='utf-8').read().splitlines())
+    global negating_words
+    negating_words = set(open('data/NegatingWordList.txt', 'r', encoding='utf-8').read().splitlines())
+    global question_words
+    question_words = set(open('data/QuestionWords.txt', 'r', encoding='utf-8').read().splitlines())
+    global slang_lookup_table
+    slang_lookup_table = load_data('data/SlangLookupTable.txt',0)
 
 # Carregar os dados dos arquivos
 def load_data(file_path,flag=1):
@@ -70,23 +109,6 @@ def load_data_sentilex(file_path,flag=1):
                     pattern.append({"LOWER":pal})    
                 matcher.add(word, [pattern])
     return expressions,data
-
-def init():
-    # Load the language model   
-    nlp = spacy.load('pt_core_news_lg')
-    # Initialize the Matcher
-    matcher = Matcher(nlp.vocab)
-    # Carregar os datasets
-    print("A carregar datasets...")
-    booster_words = load_data('data/BoosterWordList.txt')
-    emoticons = load_data('data/EmoticonLookupTable.txt')
-    expressions,emotions = load_data_sentilex('data/palavras.txt')
-    emotions2 = load_data('data/EmotionLookupTable.txt')
-    emotions.update(emotions2)
-    irony_terms = set(open('data/IronyTerms.txt', 'r', encoding='utf-8').read().splitlines())
-    negating_words = set(open('data/NegatingWordList.txt', 'r', encoding='utf-8').read().splitlines())
-    question_words = set(open('data/QuestionWords.txt', 'r', encoding='utf-8').read().splitlines())
-    slang_lookup_table = load_data('data/SlangLookupTable.txt',0)
 
 def analyze_sentiment_sentence(text):
 
@@ -179,17 +201,18 @@ def analyze_sentiment_sentence(text):
     return avaliacao
 
 def analyze_sentiment_book(book_path):
-    print(f"A carregar livro {book_path}...")
+    print(f"Loading book {book_path}...")
     all_scores = []
     with open(book_path, 'r', encoding='utf-8') as file:
         text = file.read()
-        print("Livro carregado...")
+        print("Book loaded successfully!")
         # dividir livro em capítulos (denotados por #)
         chapters = text.split('#')
-        print("Há", len(chapters[1:]), "capítulos.")
+        print("There are ", len(chapters[1:]), "chapters.")
         
         # criar pasta para guardar os capítulos, se não existir
         if not os.path.exists('chapters'):
+            print("Creating chapters folder...")
             os.makedirs('chapters')
         os.chdir('chapters')
         
@@ -199,25 +222,25 @@ def analyze_sentiment_book(book_path):
                 # split por frases (\n) (primeira frase é o número do capítulo)
                 sentences = chapter.split('\n')
                 chapter_number = sentences.pop(0)                
-                chapter_file.write(f"\nCapítulo {chapter_number}\n")
+                chapter_file.write(f"\nChapter {chapter_number}\n")
                 chapter_score = 0
                 # separar por frases (\n)
                 # analisar cada frase
                 for sentence in sentences:
                     if sentence:
                         avaliacao = analyze_sentiment_sentence(sentence)
-                        chapter_file.write(f"\nFrase: {sentence}\n")
-                        chapter_file.write(f"Num palavras: {avaliacao['num_palavras']}\n")
-                        chapter_file.write(f"Pontuação de sentimento: {avaliacao['score']}\n")
+                        chapter_file.write(f"\nPhrase: {sentence}\n")
+                        chapter_file.write(f"Word count: {avaliacao['num_palavras']}\n")
+                        chapter_file.write(f"Sentiment Score: {avaliacao['score']}\n")
                         chapter_score += avaliacao['score']
                         # imprimir evidencias
-                        chapter_file.write("Evidências:\n")
+                        chapter_file.write("Evidences:\n")
                         for key in avaliacao['evidencias']:
                             chapter_file.write(f"\t{key}: {avaliacao['evidencias'][key]}\n")
                         chapter_file.write("\n")
-                chapter_file.write(f"\nPontuação do capítulo: {chapter_score}\n")
+                chapter_file.write(f"\nChapter Score: {chapter_score}\n")
                 chapter_file.write("\n")
-            print(f"Capítulo {chapter_number} analisado -> score: {chapter_score}")
+            print(f"Chapter {chapter_number} analysed -> sentiment score: {chapter_score}")
             all_scores.append(chapter_score)
         os.chdir('..')
     
@@ -238,21 +261,24 @@ def hist_sentiment(scores):
         else:
             plt.text(i, score, score, ha='center', va='top')
     plt.bar(capitulos, scores)
-    plt.title('Pontuação de cada capítulo')
-    plt.xlabel('Pontuação')
-    plt.ylabel('Número de capítulos')
+    plt.title('Score per chapter')
+    plt.xlabel('Score')
+    plt.ylabel('Number of chapters')
     plt.show()
     
 def user_input():
-    while(text:=input("\nInsira frase: ")):
-        # guardar valores de avaliação num dicionario com a frase, evidencias e score
-        avaliacao = analyze_sentiment_sentence(text)
-        print("Num palavras:", avaliacao['num_palavras'])
-        print("Pontuação de sentimento:", avaliacao['score'])
-        # imprimir evidencias
-        print("Evidências:")
-        for key in avaliacao['evidencias']:
-            print("\t", key,":",avaliacao['evidencias'][key]) 
+    try:
+        while(text:=input("\nInsira frase: ")):
+            # guardar valores de avaliação num dicionario com a frase, evidencias e score
+            avaliacao = analyze_sentiment_sentence(text)
+            print("Word count:", avaliacao['num_palavras'])
+            print("Sentiment Score:", avaliacao['score'])
+            # imprimir evidencias
+            print("Evidences:")
+            for key in avaliacao['evidencias']:
+                print("\t", key,":",avaliacao['evidencias'][key]) 
+    except KeyboardInterrupt:
+        print("\nExiting... See you next time!")
     
 def frases_teste():
     frases = """
@@ -274,10 +300,10 @@ O stress causado pelo trabalho é insuportável.
         if frase:
             print(frase)
             avaliacao = analyze_sentiment_sentence(frase)
-            print("Num palavras:", avaliacao['num_palavras'])
-            print("Pontuação de sentimento:", avaliacao['score'])
+            print("Word count:", avaliacao['num_palavras'])
+            print("Sentiment Score:", avaliacao['score'])
             # imprimir evidencias
-            print("Evidências:")
+            print("Evidences:")
             for key in avaliacao['evidencias']:
                 print("\t", key,":",avaliacao['evidencias'][key])
             print("\n")
@@ -292,11 +318,11 @@ def main():
             if os.path.exists(file_path):
                 # analisar sentimento do livro
                 book_score = analyze_sentiment_book(file_path)
-                print(f"\nPontuação do livro: {book_score}")
+                print(f"\nBook Score: {book_score}")
             else:
-                print("Ficheiro não encontrado.")
+                print("File not found.")
         else:
-            print("Ficheiro não suportado.")
+            print("File not supported.")
         
     elif '-t' in cl.opt:
         init()

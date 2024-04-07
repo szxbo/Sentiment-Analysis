@@ -11,7 +11,7 @@
         {name = "Rafael Correia", email = "pg54162@uminho.pt"},
         {name = "Robert Szabo", email = "pg54194@uminho.pt"}
     ]
-    version = "0.1.1"
+    version = "0.2.1"
     readme = "README.md"
     classifiers = [
         "License :: OSI Approved :: MIT License",
@@ -20,7 +20,9 @@
     dynamic = ["description"]
 
     dependencies = [
-        "spacy"
+        "spacy",
+        "jjcli",
+        "matplotlib"                 
     ]
 
     [project.scripts]
